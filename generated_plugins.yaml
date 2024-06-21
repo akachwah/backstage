@@ -4913,7 +4913,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: should-i-deploy-today-
+  name: should-i-deploy-today
   description: "Can I deploy this plugin if it's Friday? Oh, hell no!!!"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/should-i-deploy.yaml
@@ -5609,4 +5609,3 @@ spec:
   lifecycle: production
   owner: Vity
 ---
-
