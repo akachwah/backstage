@@ -1,0 +1,5621 @@
+#  COMPONENTS
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: APIs with 3scale
+  description: "Synchronize 3scale content into the Backstage catalog."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/3scale.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://redhat.com
+      title: Author
+      type: author
+    - url: https://janus-idp.io/plugins/3scale
+      title: Documentation
+      type: doc
+    - url: https://janus-idp.io/images/plugins/3scale.svg
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: 3scale
+spec:
+  type: service
+  lifecycle: production
+  owner: Red Hat
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Architecture Decision Records
+  description: "Browse your project''s ADRs."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/adr.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/kuangp
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/adr/plugins/adr
+      title: Documentation
+      type: doc
+    - url: /img/adr-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: adr
+spec:
+  type: service
+  lifecycle: production
+  owner: Phil Kuang
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: AI Assistant - RAG AI
+  description: "Query LLMs with contextual information from your catalog."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/ai-assistant.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io
+      title: Author
+      type: author
+    - url: https://roadie.io/backstage/plugins/ai-assistant-rag-ai/
+      title: Documentation
+      type: doc
+    - url: https://roadie.io/images/logos/roadie-racks-ai.png
+      title: Icon
+      type: icon
+  tags:
+    - Search
+  displayName: ai-assistant
+spec:
+  type: service
+  lifecycle: production
+  owner: RoadieHQ
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Airbrake
+  description: "Access Airbrake error monitoring and other integrations from within Backstage"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/airbrake.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/simplybusiness/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/airbrake/plugins/airbrake
+      title: Documentation
+      type: doc
+    - url: https://wp-assets.airbrake.io/wp-content/uploads/2020/10/05222904/Square-white-A-on-Orange.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: airbrake
+spec:
+  type: service
+  lifecycle: production
+  owner: Simply Business
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Allure Reports
+  description: "View Allure reports for your components in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/allure.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/deepak-bhardwaj-ps
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/allure/plugins/allure
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/5879127
+      title: Icon
+      type: icon
+  tags:
+    - Reporting
+  displayName: allure
+spec:
+  type: service
+  lifecycle: production
+  owner: Deepak Bhardwaj
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Analytics Module: Google Analytics
+  description: "Track usage of your Backstage instance using Google Analytics."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/analytics-module-ga.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/analytics/plugins/analytics-module-ga/README.md
+      title: Documentation
+      type: doc
+    - url: /img/ga-icon.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: analytics-module-ga
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Analytics Module: Matomo Analytics
+  description: "Track usage of your Backstage instance using Matomo Analytics."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/analytics-module-matomo.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://redhat.com
+      title: Author
+      type: author
+    - url: https://github.com/janus-idp/backstage-plugins/blob/main/plugins/analytics-module-matomo/README.md
+      title: Documentation
+      type: doc
+    - url: /img/matomo.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: analytics-module-matomo
+spec:
+  type: service
+  lifecycle: production
+  owner: Red Hat
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Analytics Module: Quantum Metric
+  description: "Track usage of your Backstage instance using Quantum Metric."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/analytics-module-qm.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/quantummetric
+      title: Author
+      type: author
+    - url: https://github.com/quantummetric/analytics-module-qm/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: /img/qm-icon.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: analytics-module-qm
+spec:
+  type: service
+  lifecycle: production
+  owner: Quantum Metric
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Announcements
+  description: "Write and share announcements within Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/announcements.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/procore-oss
+      title: Author
+      type: author
+    - url: https://github.com/procore-oss/backstage-plugin-announcements/
+      title: Documentation
+      type: doc
+    - url: /img/plugin-announcements-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: announcements
+spec:
+  type: service
+  lifecycle: production
+  owner: procore-oss
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: API Docs
+  description: "Components to discover and display API entities as an extension to the catalog plugin."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/api-docs.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://sda.se/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/backstage/blob/master/plugins/api-docs/README.md
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_swagger.svg
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: api-docs
+spec:
+  type: service
+  lifecycle: production
+  owner: SDA SE
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: API Linter
+  description: "API Linter is a quality assurance tool that checks the compliance of API''s specifications to Zalando''s API rules."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/api-linter.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/zalando
+      title: Author
+      type: author
+    - url: https://github.com/zalando/backstage-plugin-api-linter
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/zalando/zally/main/logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Linting
+  displayName: api-linter
+spec:
+  type: service
+  lifecycle: production
+  owner: Zalando
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: API SDK Generator
+  description: "Generate SDKs for your REST API to accelerate integration"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/api-sdk-generator.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://konfigthis.com/
+      title: Author
+      type: author
+    - url: https://github.com/konfig-dev/backstage-plugin-konfig/tree/main/plugins/backstage-plugin-konfig
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/konfig-dev/backstage-plugin-konfig/main/plugins/backstage-plugin-konfig/docs/logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Development
+  displayName: api-sdk-generator
+spec:
+  type: service
+  lifecycle: production
+  owner: Konfig
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: API Spectral Linter
+  description: "API Spectral Linter is a quality assurance tool that checks the compliance of API''s specifications Spectral rule sets."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/api-spectral-linter.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/dweber019
+      title: Author
+      type: author
+    - url: https://github.com/dweber019/backstage-plugins/tree/main/plugins/api-docs-spectral-linter
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/dweber019/backstage-plugins/main/plugins/api-docs-spectral-linter/docs/pluginIcon.png
+      title: Icon
+      type: icon
+  tags:
+    - Linting
+  displayName: api-spectral-linter
+spec:
+  type: service
+  lifecycle: production
+  owner: dweber019
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: WSDL / SOAP viewer
+  description: "An API docs extension to render WSDL / SOAP web services human readable."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/api-wsdl.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/dweber019
+      title: Author
+      type: author
+    - url: https://github.com/dweber019/backstage-plugins/tree/main/plugins/api-docs-module-wsdl
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/dweber019/backstage-plugins/main/plugins/api-docs-module-wsdl/docs/logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: api-wsdl
+spec:
+  type: service
+  lifecycle: production
+  owner: dweber019
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Apollo Explorer
+  description: "Integrates Apollo Explorer graphs as a tool to browse GraphQL API endpoints inside Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/apollo-explorer.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/brizzbuzz
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/apollo-explorer/plugins/apollo-explorer/README.md
+      title: Documentation
+      type: doc
+    - url: /img/apollo-explorer.png
+      title: Icon
+      type: icon
+  tags:
+    - Debugging
+  displayName: apollo-explorer
+spec:
+  type: service
+  lifecycle: production
+  owner: brizzbuzz
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Argo CD
+  description: "View Argo CD status for your projects in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/argo-cd.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=argo-cd
+      title: Author
+      type: author
+    - url: https://roadie.io/backstage/plugins/argo-cd/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=argo-cd
+      title: Documentation
+      type: doc
+    - url: https://roadie.io/images/logos/argo.png
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: argo-cd
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Artifacts Plugin for JFrog Artifactory
+  description: "Connect Backstage entities to software artifacts stored in JFrog Artifactory.
+Display information about artifacts, such as their version, size, and download links.
+"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/artifactory.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://stagecentral.io
+      title: Author
+      type: author
+    - url: https://github.com/StageCentral/backstage-artifactory-plugin/tree/main#readme
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/StageCentral/backstage-artifactory-plugin/main/logo/logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Artifacts
+  displayName: artifactory
+spec:
+  type: service
+  lifecycle: production
+  owner: StageCentral
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Amazon Elastic Container Service
+  description: "View resources related to Amazon Elastic Container Service for your components in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/aws-amazon-ecs.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://aws.amazon.com/
+      title: Author
+      type: author
+    - url: https://github.com/awslabs/backstage-plugins-for-aws/tree/main/plugins/ecs#readme
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/awslabs/backstage-plugins-for-aws/main/docs/images/logos/amazon-ecs-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Infrastructure
+  displayName: aws-amazon-ecs
+spec:
+  type: service
+  lifecycle: production
+  owner: Amazon Web Services
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: OPA on AWS
+  description: "Orchestrate Platforms and Applications (OPA) allows customers to build and manage AWS Apps & Environments within Backstage"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/aws-app-development.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://aws.amazon.com/
+      title: Author
+      type: author
+    - url: https://opaonaws.io
+      title: Documentation
+      type: doc
+    - url: https://github.com/awslabs/app-development-for-backstage-io-on-aws/blob/main/website/static/img/white_OPA_text02.png?raw=true
+      title: Icon
+      type: icon
+  tags:
+    - Infrastructure
+  displayName: aws-app-development
+spec:
+  type: service
+  lifecycle: production
+  owner: Amazon Web Services
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: AWS CloudFormation
+  description: "Load Backstage entities from AWS CloudFormation stacks"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/aws-cloudformation.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://blog.purple-technology.com
+      title: Author
+      type: author
+    - url: https://github.com/purple-technology/backstage-aws-cloudformation-plugin#readme
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/purple-technology/backstage-aws-cloudformation-plugin/master/docs/cloudformation-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Infrastructure
+  displayName: aws-cloudformation
+spec:
+  type: service
+  lifecycle: production
+  owner: Purple Technology
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: AWS CodeBuild
+  description: "View resources related to AWS CodeBuild for your components in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/aws-codebuild.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://aws.amazon.com/
+      title: Author
+      type: author
+    - url: https://github.com/awslabs/backstage-plugins-for-aws/tree/main/plugins/codebuild#readme
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/awslabs/backstage-plugins-for-aws/main/docs/images/logos/aws-codebuild-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: aws-codebuild
+spec:
+  type: service
+  lifecycle: production
+  owner: Amazon Web Services
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: AWS CodePipeline
+  description: "View resources related to AWS CodePipeline for your components in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/aws-codepipeline.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://aws.amazon.com/
+      title: Author
+      type: author
+    - url: https://github.com/awslabs/backstage-plugins-for-aws/tree/main/plugins/codepipeline#readme
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/awslabs/backstage-plugins-for-aws/main/docs/images/logos/aws-codepipeline-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: aws-codepipeline
+spec:
+  type: service
+  lifecycle: production
+  owner: Amazon Web Services
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: AWS Lambda
+  description: "View AWS Lambda functions for your components in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/aws-lambda.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=aws-lambda
+      title: Author
+      type: author
+    - url: https://roadie.io/backstage/plugins/aws-lambda/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=aws-lambda
+      title: Documentation
+      type: doc
+    - url: https://roadie.io/images/logos/lambda.png
+      title: Icon
+      type: icon
+  tags:
+    - Infrastructure
+  displayName: aws-lambda
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Azure Pipelines
+  description: "Easily view your Azure Pipelines within the Software Catalog"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/azure-pipelines.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://keyloop.com/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/azure-devops/plugins/azure-devops/README.md
+      title: Documentation
+      type: doc
+    - url: /img/azure-pipelines.svg
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: azure-pipelines
+spec:
+  type: service
+  lifecycle: production
+  owner: Keyloop
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Azure Resources
+  description: "A plugin showing Azure resource groups and security recommendations in relation to an entity in the catalog."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/azure-resources.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://vipps.no
+      title: Author
+      type: author
+    - url: https://github.com/vippsas/backstage-azure-resource-frontend
+      title: Documentation
+      type: doc
+  tags:
+    - Infrastructure
+  displayName: azure-resources
+spec:
+  type: service
+  lifecycle: production
+  owner: Martin Ehrnst
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Azure Sites
+  description: "Azure Sites (Apps & Functions) support for a given entity. View the current status of the site, quickly jump to site''s Overview page, or Log Stream page."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/azure-sites.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://friss.com
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/azure-sites/plugins/azure-sites
+      title: Documentation
+      type: doc
+  tags:
+    - Infrastructure
+  displayName: azure-sites
+spec:
+  type: service
+  lifecycle: production
+  owner: FRISS
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Azure Spring Apps
+  description: "Easily view your Azure Spring Apps service resources"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/azure-spring-apps.yml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://enfuse.io/
+      title: Author
+      type: author
+    - url: https://github.com/enfuse/asae-backstage-plugin/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: /img/enfuse.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: azure-spring-apps
+spec:
+  type: service
+  lifecycle: production
+  owner: Enfuse
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Azure Storage Explorer
+  description: "Explore Azure Storage Blobs in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/azure-storage.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/deepan10
+      title: Author
+      type: author
+    - url: https://github.com/deepan10/backstage-plugins/tree/main/plugins/azure-storage
+      title: Documentation
+      type: doc
+    - url: /img/azure-storage-folder.png
+      title: Icon
+      type: icon
+  tags:
+    - Infrastructure
+  displayName: azure-storage
+spec:
+  type: service
+  lifecycle: production
+  owner: Deepankumar
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Backchat GenAI
+  description: "Access your favorite open source GenAI GUIs privately from Backstage. Chat wth large language models in your portal. Choose from hundreds of LLMs. Run inferencing wherever you like - local or remote, CPU or GPU - it''s up to you!"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/backchat.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/benwilcock
+      title: Author
+      type: author
+    - url: https://github.com/benwilcock/backstage-plugin-backchat
+      title: Documentation
+      type: doc
+    - url: /img/backchat-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Services
+  displayName: backchat
+spec:
+  type: service
+  lifecycle: production
+  owner: benwilcock
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Backstage Kubernetes
+  description: "Monitor all your service''s deployments at a glance, even across clusters."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/backstage-kubernetes.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://backstage.io/docs/features/kubernetes/
+      title: Documentation
+      type: doc
+    - url: /img/backstage-k8s.svg
+      title: Icon
+      type: icon
+  tags:
+    - Core Feature
+  displayName: backstage-kubernetes
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Backstage Search
+  description: "A composable and extensible search platform built to fit your organization’s needs and find information quickly."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/backstage-search-platform.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://backstage.io/docs/features/search/
+      title: Documentation
+      type: doc
+    - url: /img/backstage-search-platform.svg
+      title: Icon
+      type: icon
+  tags:
+    - Core Feature
+  displayName: backstage-search-platform
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Backstage Software Catalog
+  description: "Manage all your services and software components, all in one place."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/backstage-software-catalog.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://backstage.io/docs/features/software-catalog/
+      title: Documentation
+      type: doc
+    - url: /img/backstage-software-catalog.svg
+      title: Icon
+      type: icon
+  tags:
+    - Core Feature
+  displayName: backstage-software-catalog
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Backstage Software Templates
+  description: "Create new software components in just a few steps, with your standards built-in (Scaffolder)."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/backstage-software-templates.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://backstage.io/docs/features/software-templates/
+      title: Documentation
+      type: doc
+    - url: /img/backstage-software-templates.svg
+      title: Icon
+      type: icon
+  tags:
+    - Core Feature
+  displayName: backstage-software-templates
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Backstage TechDocs
+  description: "A docs-like-code solution to technical documentation. Write your docs right alongside your code."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/backstage-techdocs.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://backstage.io/docs/features/techdocs/
+      title: Documentation
+      type: doc
+    - url: /img/backstage-techdocs.svg
+      title: Icon
+      type: icon
+  tags:
+    - Core Feature
+  displayName: backstage-techdocs
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Badges
+  description: "The badges plugin offers a set of badges that can be used outside of Backstage, showing information related to data from the catalog."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/badges.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/backstage/community
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/badges/plugins/badges/README.md
+      title: Documentation
+      type: doc
+    - url: /img/badges.svg
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: badges
+spec:
+  type: service
+  lifecycle: production
+  owner: Andreas Stenius
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Bazaar
+  description: "A marketplace where engineers can propose projects suitable for inner sourcing"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/bazaar.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.axis.com
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/bazaar/plugins/bazaar/README.md
+      title: Documentation
+      type: doc
+    - url: /img/bazaar.svg
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: bazaar
+spec:
+  type: service
+  lifecycle: production
+  owner: Axis Communications AB
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Betterscan
+  description: "View security scanned vulnerabilities in Code and Cloud scanned using Open Source and proprietary scanners directly in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/betterscan.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://betterscan.io
+      title: Author
+      type: author
+    - url: https://www.npmjs.com/package/@marcinguy/backstage-plugin-betterscan
+      title: Documentation
+      type: doc
+    - url: https://uploads-ssl.webflow.com/6339e3b81867539b5fe2498d/633a1643dcb06d3029867161_g4.svg
+      title: Icon
+      type: icon
+  tags:
+    - Security
+  displayName: betterscan
+spec:
+  type: service
+  lifecycle: production
+  owner: Marcin Kozlowski
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Bitrise
+  description: "View Bitrise builds and download the build artifacts within Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/bitrise.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://sda.se/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/bitrise/plugins/bitrise/README.md
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/7174390?s=400&v=4
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: bitrise
+spec:
+  type: service
+  lifecycle: production
+  owner: SDA SE
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: BlackDuck
+  description: "BlackDuck scanned vulnerabilities in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/blackduck.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/deepan10
+      title: Author
+      type: author
+    - url: https://github.com/deepan10/backstage-plugin-blackduck
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/431461?s=200&v=4
+      title: Icon
+      type: icon
+  tags:
+    - Security
+  displayName: blackduck
+spec:
+  type: service
+  lifecycle: production
+  owner: Deepankumar
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Blockchain Radar
+  description: "Discover and manage contracts, multisigs and their access control policies on various blockchains."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/blockchain-radar.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/aurora-is-near
+      title: Author
+      type: author
+    - url: https://github.com/aurora-is-near/backstage-plugin-blockchainradar
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/aurora-is-near/backstage-plugin-blockchainradar/main/docs/imgs/signs/sign-green.svg
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: blockchain-radar
+spec:
+  type: service
+  lifecycle: production
+  owner: @aurora-is-near
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Bugsnag
+  description: "View and monitor Bugsnag errors."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/bugsnag.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=bugsnag
+      title: Author
+      type: author
+    - url: https://roadie.io/backstage/plugins/bugsnag/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=bugsnag
+      title: Documentation
+      type: doc
+    - url: https://roadie.io/images/logos/bugsnag.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: bugsnag
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Buildkite
+  description: "View Buildkite CI builds for your service in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/buildkite.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=buildkite
+      title: Author
+      type: author
+    - url: https://roadie.io/backstage/plugins/buildkite/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=buildkite
+      title: Documentation
+      type: doc
+    - url: https://roadie.io/images/logos/buildkite.png
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: buildkite
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Bulletin Board
+  description: "Share interesting ideas, news and links with your teammates within Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/bulletin-board.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/v-ngu
+      title: Author
+      type: author
+    - url: https://github.com/v-ngu/backstage-plugin-bulletin-board
+      title: Documentation
+      type: doc
+    - url: /img/bulletin-board.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: bulletin-board
+spec:
+  type: service
+  lifecycle: production
+  owner: v-ngu
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: PuppetDB Entity Provider
+  description: "Import nodes from PuppetDB into Backstage as Resource Entities"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/catalog-backend-module-puppetdb.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/tdabasinskas
+      title: Author
+      type: author
+    - url: https://github.com/backstage/backstage/blob/master/plugins/catalog-backend-module-puppetdb/README.md
+      title: Documentation
+      type: doc
+    - url: /img/puppet.png
+      title: Icon
+      type: icon
+  tags:
+    - Configuration Management
+  displayName: catalog-backend-module-puppetdb
+spec:
+  type: service
+  lifecycle: production
+  owner: TDabasinskas
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Catalog Graph
+  description: "Extend the Backstage Software Catalog with a graph that shows all entities and their relationships providing an easier way to discover the ecosystem."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/catalog-graph.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://sda.se/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/backstage/blob/master/plugins/catalog-graph/README.md
+      title: Documentation
+      type: doc
+    - url: /img/catalog-graph.svg
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: catalog-graph
+spec:
+  type: service
+  lifecycle: production
+  owner: SDA SE
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Changelog viewer
+  description: "View changelogs for your components in Backstage. Built-in support of ''Keep the changelog'' and ''Semver'' formats."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/changelog.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://rsoftcon.com/
+      title: Author
+      type: author
+    - url: https://github.com/RSC-Labs/backstage-changelog-plugin/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/RSC-Labs/backstage-changelog-plugin/main/docs/plugin_icon.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: changelog
+spec:
+  type: service
+  lifecycle: production
+  owner: RSC Labs
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ChatGPT Playground
+  description: "Experiment with the OpenAI playground to help you develop more efficiently"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/chatgpt-playground.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://enfuse.io/
+      title: Author
+      type: author
+    - url: https://github.com/enfuse/backstage-chatgpt-plugin/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: /img/enfuse.png
+      title: Icon
+      type: icon
+  tags:
+    - Development
+  displayName: chatgpt-playground
+spec:
+  type: service
+  lifecycle: production
+  owner: Enfuse
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: CI/CD Statistics
+  description: "Visualize CI/CD pipeline statistics such as build time or success and error rates."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/cicd-statistics.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/cicd-statistics/plugins/cicd-statistics
+      title: Documentation
+      type: doc
+    - url: /img/cicd-statistics.svg
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: cicd-statistics
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: CircleCI
+  description: "Automate your development process with CI hosted in the cloud or on a private server."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/circleci.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://circleci.com/
+      title: Author
+      type: author
+    - url: https://github.com/CircleCI-Public/backstage-plugin/tree/main/plugins/circleci
+      title: Documentation
+      type: doc
+    - url: /img/circleci.png
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: circleci
+spec:
+  type: service
+  lifecycle: production
+  owner: CircleCI
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Google Cloud Build
+  description: "Build, test, and deploy on Google''s serverless CI/CD platform."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/cloud-build.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.trivago.com
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/cloudbuild/plugins/cloudbuild
+      title: Documentation
+      type: doc
+    - url: https://avatars2.githubusercontent.com/u/38220399?s=400&v=4
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: cloud-build
+spec:
+  type: service
+  lifecycle: production
+  owner: Trivago
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cloud Carbon Footprint
+  description: "View your cloud carbon footprint by estimating energy use (kilowatt-hours) and carbon emissions (metric tons CO2e) from public cloud usage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/cloud-carbon-footprint.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.cloudcarbonfootprint.org/
+      title: Author
+      type: author
+    - url: https://github.com/cloud-carbon-footprint/ccf-backstage-plugin/blob/trunk/README.md
+      title: Documentation
+      type: doc
+    - url: https://www.cloudcarbonfootprint.org/img/logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Metrics
+  displayName: cloud-carbon-footprint
+spec:
+  type: service
+  lifecycle: production
+  owner: Thoughtworks
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cloudify
+  description: "Cloudify provides a remote execution and environment management backend for Kubernetes, Terraform, Ansible, etc."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/cloudify.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://cloudify.co/
+      title: Author
+      type: author
+    - url: https://github.com/cloudify-cosmo/backstage-cloudify-plugin#readme
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/6260555?s=200&v=4
+      title: Icon
+      type: icon
+  tags:
+    - Orchestration
+  displayName: cloudify
+spec:
+  type: service
+  lifecycle: production
+  owner: Cloudify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cloudsmith
+  description: "Show Cloudsmith Repository stats, Quota, Audit logs and Security scans for specific repositories."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/cloudsmith.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io
+      title: Author
+      type: author
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins/tree/main/plugins/frontend/backstage-plugin-cloudsmith
+      title: Documentation
+      type: doc
+    - url: https://cloudsmith.com/img/cloudsmith-mini-dark.svg
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: cloudsmith
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Codacy Repo Adder
+  description: "A Template Action to automatically add a Repository to Codacy"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/codacy-repo-adder.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.codacy.com/
+      title: Author
+      type: author
+    - url: https://github.com/codacy/backstage-plugin/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: /img/codacy-icon.svg
+      title: Icon
+      type: icon
+  tags:
+    - Quality
+  displayName: codacy-repo-adder
+spec:
+  type: service
+  lifecycle: production
+  owner: Codacy
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Coder
+  description: "Create and manage Coder workspaces from Backstage!"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/coder.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.coder.com
+      title: Author
+      type: author
+    - url: https://github.com/coder/backstage-plugins/blob/main/plugins/backstage-plugin-coder/README.md
+      title: Documentation
+      type: doc
+    - url: /img/coder.png
+      title: Icon
+      type: icon
+  tags:
+    - Development
+  displayName: coder
+spec:
+  type: service
+  lifecycle: production
+  owner: Coder
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: CodeScene
+  description: "CodeScene is a multi-purpose tool bridging code, business and people. See hidden risks and social patterns in your code. Prioritize and reduce technical debt."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/codescene.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://codescene.com/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/codescene/plugins/codescene
+      title: Documentation
+      type: doc
+    - url: /img/codescene_logo.svg
+      title: Icon
+      type: icon
+  tags:
+    - Quality
+  displayName: codescene
+spec:
+  type: service
+  lifecycle: production
+  owner: CodeScene
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cortex Service Quality Scorecards
+  description: "Grade the quality of your Backstage services using Scorecards. Automate production readiness, migrations, security audits, and more with CQL (Cortex Query Language)."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/cortex.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.getcortexapp.com
+      title: Author
+      type: author
+    - url: https://github.com/cortexapps/backstage-plugin
+      title: Documentation
+      type: doc
+    - url: /img/cortex.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: cortex
+spec:
+  type: service
+  lifecycle: production
+  owner: Cortex
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cost Insights
+  description: "Visualize, understand and optimize your team''s cloud costs."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/cost-insights.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/cost-insights/plugins/cost-insights
+      title: Documentation
+      type: doc
+    - url: /img/cost-insights.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: cost-insights
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Datadog
+  description: "Embed Datadog graphs and dashboards in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/datadog.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=datadog
+      title: Author
+      type: author
+    - url: https://roadie.io/backstage/plugins/datadog/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=datadog
+      title: Documentation
+      type: doc
+    - url: https://roadie.io/images/logos/datadog-white-background.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: datadog
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dbt Docs
+  description: "View dbt models and tests documentation."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dbt.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/IIBenII
+      title: Author
+      type: author
+    - url: https://github.com/IIBenII/backstage-plugin-dbt
+      title: Documentation
+      type: doc
+  tags:
+    - Discovery
+  displayName: dbt
+spec:
+  type: service
+  lifecycle: production
+  owner: IIBenII
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Dependencytrack
+  description: "Plugin for extracting metrics and findings from OWASP''s Dependencytrack"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dependencytrack.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.trimm.nl/
+      title: Author
+      type: author
+    - url: https://github.com/TRIMM/plugin-dependencytrack/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/40258585?s=200&v=4
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: dependencytrack
+spec:
+  type: service
+  lifecycle: production
+  owner: TRIMM
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Dev Friends Days
+  description: "Be informed if there is a Programmer, Tester or SysAdmin day today so you will know when to celebrate that special day with your team!"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dev-friends-day.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://piatkiewicz.com
+      title: Author
+      type: author
+    - url: https://github.com/piatkiewicz/backstage-plugins/tree/main/dev-friends-days
+      title: Documentation
+      type: doc
+    - url: /img/dev-friends-days.jpeg
+      title: Icon
+      type: icon
+  tags:
+    - Humor
+  displayName: dev-friends-day
+spec:
+  type: service
+  lifecycle: production
+  owner: Piotr Piątkiewicz
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Dev Quotes
+  description: "Displays a coding/progamming related quote designed as a footer for the Homepage, although to be honest it can be used anywhere you like!"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dev-quotes.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/Parsifal-M
+      title: Author
+      type: author
+    - url: https://github.com/Parsifal-M/backstage-dev-quotes?tab=readme-ov-file#dev-quotes-homepage
+      title: Documentation
+      type: doc
+    - url: /img/dqicon.png
+      title: Icon
+      type: icon
+  tags:
+    - Humor
+  displayName: dev-quotes
+spec:
+  type: service
+  lifecycle: production
+  owner: Peter Macdonald
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Dev Containers
+  description: "Automatically launch fully-contained dev environments with Dev Containers, right from Backstage!"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/devcontainers.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.coder.com
+      title: Author
+      type: author
+    - url: https://github.com/coder/backstage-plugins/blob/main/plugins/backstage-plugin-devcontainers-react/README.md
+      title: Documentation
+      type: doc
+    - url: /img/devcontainers.png
+      title: Icon
+      type: icon
+  tags:
+    - Development
+  displayName: devcontainers
+spec:
+  type: service
+  lifecycle: production
+  owner: Coder
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: DevTools
+  description: "Tools for helping with the Ops side of running a Backstage instance"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/devtools.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://keyloop.com/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/backstage/blob/master/plugins/devtools/README.md
+      title: Documentation
+      type: doc
+    - url: /img/devtools.svg
+      title: Icon
+      type: icon
+  tags:
+    - Tools
+  displayName: devtools
+spec:
+  type: service
+  lifecycle: production
+  owner: Keyloop
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Digital.ai Deploy
+  description: "The plugin offers integration with Digital.ai Deploy and backstage components and services. It provide access to deployments and reports."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/digital.ai-deploy.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://digital.ai/
+      title: Author
+      type: author
+    - url: https://docs.digital.ai/bundle/devops-deploy-version-v.24.1/page/deploy/concept/xl-deploy-backstage-overview.html
+      title: Documentation
+      type: doc
+    - url: /img/digital.ai-deploy.svg
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: digital.ai-deploy
+spec:
+  type: service
+  lifecycle: production
+  owner: digital.ai
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Digital.ai Release
+  description: "The plugin offers integration with Digital.ai Release and backstage. It provide access to active releases, templates and manage workflow executions."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/digital.ai-release.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://digital.ai/
+      title: Author
+      type: author
+    - url: https://docs.digital.ai/bundle/devops-release-version-v.24.1/page/release/concept/release-backstage-overview.html
+      title: Documentation
+      type: doc
+    - url: /img/digital.ai-release.svg
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: digital.ai-release
+spec:
+  type: service
+  lifecycle: production
+  owner: digital.ai
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Docker tags
+  description: "Creates a list of docker tags based on hub.docker.com"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/docker-tags.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/work-m8
+      title: Author
+      type: author
+    - url: https://github.com/Work-m8/backstage-docker-plugin/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/Work-m8/.github/main/profile/wm_logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Services
+  displayName: docker-tags
+spec:
+  type: service
+  lifecycle: production
+  owner: Workm8
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: DORA Metrics
+  description: "Embed dashboards (like DORA metrics) in your team or service pages from any dev tools (including Github, Gitlab, Jira, Argo, CircleCI, Buildkite, Pagerduty, Rollbar, Sentry, etc)."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dora-metrics.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.okayhq.com
+      title: Author
+      type: author
+    - url: https://github.com/OkayHQ/backstage-plugin
+      title: Documentation
+      type: doc
+    - url: /img/okay.png
+      title: Icon
+      type: icon
+  tags:
+    - Metrics
+  displayName: dora-metrics
+spec:
+  type: service
+  lifecycle: production
+  owner: Okay
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: DX
+  description: "DX Plugin for syncing Backstage data to DX and adding DX reports to Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dx.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://getdx.com
+      title: Author
+      type: author
+    - url: https://github.com/get-dx/backstage-plugin
+      title: Documentation
+      type: doc
+    - url: /img/dx-icon.png
+      title: Icon
+      type: icon
+  tags:
+    - Services
+  displayName: dx
+spec:
+  type: service
+  lifecycle: production
+  owner: DX
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Dynatrace for Managed
+  description: "View problem and synthetic information for services in your software catalog."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dynatrace-managed.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/dynatrace
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/dynatrace/plugins/dynatrace
+      title: Documentation
+      type: doc
+    - url: /img/dynatrace.svg
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: dynatrace-managed
+spec:
+  type: service
+  lifecycle: production
+  owner: Dynatrace
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Dynatrace
+  description: "Provide customizable context-rich observability and security insights for services in your software catalog."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dynatrace.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/dynatrace
+      title: Author
+      type: author
+    - url: https://github.com/Dynatrace/backstage-plugin
+      title: Documentation
+      type: doc
+    - url: /img/dynatrace.svg
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: dynatrace
+spec:
+  type: service
+  lifecycle: production
+  owner: Dynatrace
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: End of life
+  description: "Display end of life data for entities from endoflife.data"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/end-of-life.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/dweber019
+      title: Author
+      type: author
+    - url: https://github.com/dweber019/backstage-plugins/tree/main/plugins/endoflife
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/dweber019/backstage-plugins/main/plugins/endoflife/docs/pluginIcon.png
+      title: Icon
+      type: icon
+  tags:
+    - Quality
+  displayName: end-of-life
+spec:
+  type: service
+  lifecycle: production
+  owner: dweber019
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Entity Feedback
+  description: "Give and view feedback on entities available in the Backstage catalog."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/entity-feedback.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/kuangp
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/entity-feedback/plugins/entity-feedback
+      title: Documentation
+      type: doc
+    - url: /img/entity-feedback-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Quality
+  displayName: entity-feedback
+spec:
+  type: service
+  lifecycle: production
+  owner: Phil Kuang
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Entity Validation
+  description: "Interface for validating entities."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/entity-validation.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spreadshirt
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/entity-validation/plugins/entity-validation
+      title: Documentation
+      type: doc
+    - url: /img/entity-validation.svg
+      title: Icon
+      type: icon
+  tags:
+    - Quality
+  displayName: entity-validation
+spec:
+  type: service
+  lifecycle: production
+  owner: Spreadgroup
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Feedback
+  description: "A plugin for collecting user feedbacks for your application."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/feedback.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://redhat.com
+      title: Author
+      type: author
+    - url: https://github.com/janus-idp/backstage-plugins/tree/main/plugins/feedback#readme
+      title: Documentation
+      type: doc
+    - url: /img/plugin-feedback-logo.svg
+      title: Icon
+      type: icon
+  tags:
+    - Quality
+  displayName: feedback
+spec:
+  type: service
+  lifecycle: production
+  owner: Red Hat
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Festive Fun
+  description: "Festive, seasonal, animations to spice up your instance of Backstage!"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/festive-fun.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/benjmac
+      title: Author
+      type: author
+    - url: https://github.com/benjmac/backstage-plugin-festive-fun/
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/benjmac/backstage-plugin-festive-fun/main/docs/festive-fun-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Humor
+  displayName: festive-fun
+spec:
+  type: service
+  lifecycle: production
+  owner: benjmac
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Firebase Functions
+  description: "View Firebase Functions details for your service in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/firebase-functions.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=firebase-functions
+      title: Author
+      type: author
+    - url: https://roadie.io/backstage/plugins/firebase-functions/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=firebase-functions
+      title: Documentation
+      type: doc
+    - url: https://roadie.io/images/logos/firebase.png
+      title: Icon
+      type: icon
+  tags:
+    - Infrastructure
+  displayName: firebase-functions
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: FireHydrant
+  description: "View service incidents information from FireHydrant, such as active incidents and incident metrics, directly within Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/firehydrant.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://firehydrant.io/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/firehydrant/plugins/firehydrant/README.md
+      title: Documentation
+      type: doc
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/firehydrant/plugins/firehydrant/doc/firehydrant_logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: firehydrant
+spec:
+  type: service
+  lifecycle: production
+  owner: FireHydrant
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Flux Plugins
+  description: "View the status of fluxcd.io resources"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/flux.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://weave.works
+      title: Author
+      type: author
+    - url: https://github.com/weaveworks/weaveworks-backstage/tree/main/plugins/backstage-plugin-flux#readme
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/fluxcd/website/main/assets/icons/logo.svg
+      title: Icon
+      type: icon
+  tags:
+    - GitOps
+  displayName: flux
+spec:
+  type: service
+  lifecycle: production
+  owner: Weaveworks
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: FOSSA
+  description: "View FOSSA license compliance of your components in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/fossa.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://sda.se/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/fossa/plugins/fossa/README.md
+      title: Documentation
+      type: doc
+    - url: https://avatars0.githubusercontent.com/u/9543448?s=400&v=4
+      title: Icon
+      type: icon
+  tags:
+    - Quality
+  displayName: fossa
+spec:
+  type: service
+  lifecycle: production
+  owner: SDA SE
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GCP Project Creator
+  description: "Create, list and manage your Google Cloud Projects."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/gcp-projects.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.trivago.com
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/gcp-projects/plugins/gcp-projects
+      title: Documentation
+      type: doc
+    - url: https://avatars1.githubusercontent.com/u/2810941?s=280&v=4
+      title: Icon
+      type: icon
+  tags:
+    - Infrastructure
+  displayName: gcp-projects
+spec:
+  type: service
+  lifecycle: production
+  owner: Trivago
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GitHub Release Manager
+  description: "Manage releases without having to juggle git commands."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/git-release-manager.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/git-release-manager/plugins/git-release-manager
+      title: Documentation
+      type: doc
+    - url: /img/git-release-manager-logo.svg
+      title: Icon
+      type: icon
+  tags:
+    - Source Control Mgmt
+  displayName: git-release-manager
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GitHub Actions
+  description: "GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/github-actions.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/github-actions/plugins/github-actions
+      title: Documentation
+      type: doc
+    - url: https://avatars2.githubusercontent.com/u/44036562?s=400&v=4
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: github-actions
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GitHub Codespaces
+  description: "Integrates GitHub Codespaces for a Backstage component with the Authenticated User."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/github-codespaces.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/adityasinghal26
+      title: Author
+      type: author
+    - url: https://github.com/adityasinghal26/backstage-plugins/tree/main/plugins/github-codespaces
+      title: Documentation
+      type: doc
+    - url: https://github.com/adityasinghal26/backstage-plugins/blob/main/plugins/github-codespaces/images/GitHubLogo.png
+      title: Icon
+      type: icon
+  tags:
+    - Development
+  displayName: github-codespaces
+spec:
+  type: service
+  lifecycle: production
+  owner: Aditya Singhal - Lab45
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GitHub Insights
+  description: "View GitHub Insights for your components in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/github-insights.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=github-insights
+      title: Author
+      type: author
+    - url: https://roadie.io/backstage/plugins/github-insights/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=github-insights
+      title: Documentation
+      type: doc
+    - url: https://roadie.io/images/logos/insights.png
+      title: Icon
+      type: icon
+  tags:
+    - Source Control Mgmt
+  displayName: github-insights
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GitHub Pull Requests Board
+  description: "View all open GitHub pull requests owned by your team in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/github-pull-requests-board.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://engineering.dazn.com
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/github-pull-requests-board/plugins/github-pull-requests-board
+      title: Documentation
+      type: doc
+    - url: /img/github-pull-requests-board-logo.svg
+      title: Icon
+      type: icon
+  tags:
+    - Source Control Mgmt
+  displayName: github-pull-requests-board
+spec:
+  type: service
+  lifecycle: production
+  owner: DAZN
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GitHub Pull Requests
+  description: "View GitHub pull requests for your service in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/github-pull-requests.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=github-pull-requests
+      title: Author
+      type: author
+    - url: https://roadie.io/backstage/plugins/github-pull-requests/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=github-pull-requests
+      title: Documentation
+      type: doc
+    - url: https://roadie.io/images/logos/github.png
+      title: Icon
+      type: icon
+  tags:
+    - Source Control Mgmt
+  displayName: github-pull-requests
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: VeeCode GitHub Workflows
+  description: "The Github Workflows plugin provides an alternative for manually triggering GitHub workflows from within your Backstage component."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/github-workflows.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://platform.vee.codes/
+      title: Author
+      type: author
+    - url: https://platform.vee.codes/plugin/Github%20workflows/
+      title: Documentation
+      type: doc
+    - url: https://veecode-platform.github.io/support/imgs/logo_2.svg
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: github-workflows
+spec:
+  type: service
+  lifecycle: production
+  owner: VeeCode Platform
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: VeeCode Gitlab Pipelines
+  description: "The Gitlab pipelines plugin integrates GitlabCi with its backstage component in a simple way."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/gitlab-pipelines.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://platform.vee.codes
+      title: Author
+      type: author
+    - url: https://platform.vee.codes/plugin/Gitlab%20Pipelines/
+      title: Documentation
+      type: doc
+    - url: https://veecode-platform.github.io/support/imgs/logo_1.svg
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: gitlab-pipelines
+spec:
+  type: service
+  lifecycle: production
+  owner: VeeCode Platform
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GitLab
+  description: "View GitLab pipelines, merge requests, languages and contributors."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/gitlab.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/immobiliare
+      title: Author
+      type: author
+    - url: https://github.com/immobiliare/backstage-plugin-gitlab
+      title: Documentation
+      type: doc
+    - url: https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: gitlab
+spec:
+  type: service
+  lifecycle: production
+  owner: ImmobiliareLabs
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GitOps Clusters
+  description: "Create GitOps-managed Kubernetes clusters. Currently, it supports provisioning EKS clusters on GitHub via GitHub Actions."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/gitops-cluster.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.weave.works/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/gitops-profiles/plugins/gitops-profiles
+      title: Documentation
+      type: doc
+    - url: https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1462316670/i9d3delzvx1erzjhmcws.png
+      title: Icon
+      type: icon
+  tags:
+    - Kubernetes
+  displayName: gitops-cluster
+spec:
+  type: service
+  lifecycle: production
+  owner: Weaveworks
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GoCD
+  description: "GoCD is an open-source tool which is used in software development to help teams and organizations automate the continuous delivery of software."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/gocd.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/soundcloud
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/gocd/plugins/gocd
+      title: Documentation
+      type: doc
+    - url: https://www.gocd.org/assets/images/go_logo-5b5ca9e1.svg
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: gocd
+spec:
+  type: service
+  lifecycle: production
+  owner: SoundCloud
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Grafana
+  description: "Associate alerts and dashboards to components."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/grafana.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/K-Phoen
+      title: Author
+      type: author
+    - url: https://github.com/K-Phoen/backstage-plugin-grafana/
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/7195757?s=200&v=4
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: grafana
+spec:
+  type: service
+  lifecycle: production
+  owner: K-Phoen
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GraphiQL
+  description: "Integrates GraphiQL as a tool to browse GraphQL API endpoints inside Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/graphiql.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/graphiql/plugins/graphiql
+      title: Documentation
+      type: doc
+    - url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1024px-GraphQL_Logo.svg.png
+      title: Icon
+      type: icon
+  tags:
+    - Debugging
+  displayName: graphiql
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GraphQL Catalog
+  description: "Adds the GraphQL Endpoint to Backstage Catalog as a plugin."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/graphql-catalog.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://frontside.com/
+      title: Author
+      type: author
+    - url: https://github.com/thefrontside/playhouse/blob/main/plugins/graphql-backend/README.md
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/thefrontside/frontside.com/production/legacy/src/img/frontside-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: graphql-catalog
+spec:
+  type: service
+  lifecycle: production
+  owner: Frontside Software
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GraphQL Voyager
+  description: "Integrates the GraphQL Voyager tool inside Backstage as a plugin."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/graphql-voyager.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/postnl
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/graphql-voyager/plugins/graphql-voyager
+      title: Documentation
+      type: doc
+    - url: https://res.cloudinary.com/apideck/image/upload/v1612724234/icons/graphql-voyager.png
+      title: Icon
+      type: icon
+  tags:
+    - Debugging
+  displayName: graphql-voyager
+spec:
+  type: service
+  lifecycle: production
+  owner: PostNL
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GRPC Playground
+  description: "Easily view and test your gRPC API with a GUI Client, inspired from BloomRPC application."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/grpc-playground.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/zalopay-oss/
+      title: Author
+      type: author
+    - url: https://github.com/zalopay-oss/backstage-grpc-playground
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/zalopay-oss/backstage-grpc-playground/main/images/gprc-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: grpc-playground
+spec:
+  type: service
+  lifecycle: production
+  owner: Zalopay-OSS
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Harbor
+  description: "This plugin will show you information about Docker images within the Harbor cloud native registry."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/harbor.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://bestsellerit.com
+      title: Author
+      type: author
+    - url: https://github.com/BESTSELLER/backstage-plugin-harbor/blob/master/README.md
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/cncf/artwork/master/projects/harbor/icon/color/harbor-icon-color.svg
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: harbor
+spec:
+  type: service
+  lifecycle: production
+  owner: BESTSELLER
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Harness CI/CD
+  description: "This plugin lets you view Harness pipeline execution details inside Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/harness-ci-cd.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/harness/backstage-plugins
+      title: Author
+      type: author
+    - url: https://github.com/harness/backstage-plugins/tree/main/plugins/harness-ci-cd
+      title: Documentation
+      type: doc
+    - url: https://static.harness.io/ng-static/images/favicon.png
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: harness-ci-cd
+spec:
+  type: service
+  lifecycle: production
+  owner: harness.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Harness Feature Flags
+  description: "This plugin lets you view Harness Feature Flags created in your project inside Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/harness-feature-flags.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/harness/backstage-plugins
+      title: Author
+      type: author
+    - url: https://github.com/harness/backstage-plugins/tree/main/plugins/harness-feature-flags
+      title: Documentation
+      type: doc
+    - url: https://static.harness.io/ng-static/images/favicon.png
+      title: Icon
+      type: icon
+  tags:
+    - Feature Flags
+  displayName: harness-feature-flags
+spec:
+  type: service
+  lifecycle: production
+  owner: harness.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Harness Service Reliability Management
+  description: "This plugin tracks the defined SLOs and Error Budgets for your Monitored services in Harness SRM Module."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/harness-srm.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/harness/backstage-plugins
+      title: Author
+      type: author
+    - url: https://github.com/harness/backstage-plugins/tree/main/plugins/harness-srm
+      title: Documentation
+      type: doc
+    - url: https://static.harness.io/ng-static/images/favicon.png
+      title: Icon
+      type: icon
+  tags:
+    - Quality
+  displayName: harness-srm
+spec:
+  type: service
+  lifecycle: production
+  owner: harness.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: HCP Consul
+  description: "View your HCP Consul clusters, services, instances in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/hcp-consul.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.hashicorp.com/
+      title: Author
+      type: author
+    - url: https://github.com/hashicorp-forge/backstage-plugin-hcp-consul/tree/main
+      title: Documentation
+      type: doc
+    - url: /img/hcp-consul.svg
+      title: Icon
+      type: icon
+  tags:
+    - Infrastructure
+  displayName: hcp-consul
+spec:
+  type: service
+  lifecycle: production
+  owner: Hashicorp
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Highlights
+  description: "Highlight what is important for you and put it on front for the quick view and access. Built-in support of Git information from GitHub and GitLab."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/highlights.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://rsoftcon.com/
+      title: Author
+      type: author
+    - url: https://github.com/RSC-Labs/backstage-highlights-plugin/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/RSC-Labs/backstage-highlights-plugin/main/docs/highlighter.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: highlights
+spec:
+  type: service
+  lifecycle: production
+  owner: RSC Labs
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Home
+  description: "This plugin provides a composable home page, and ability to create home page components"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/home.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://github.com/backstage/backstage/blob/master/plugins/home/README.md
+      title: Documentation
+      type: doc
+    - url: /img/home.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: home
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Hoop
+  description: "hoop.dev is a cloud-native ssh implementation that lets you edit connections contents live."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/hoop.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://hoop.dev
+      title: Author
+      type: author
+    - url: https://github.com/hoophq/backstage-plugin
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/113131551?s=200&v=4
+      title: Icon
+      type: icon
+  tags:
+    - Cloud-native ssh
+  displayName: hoop
+spec:
+  type: service
+  lifecycle: production
+  owner: hoop.dev
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Humanitec Platform Orchestrator
+  description: "Show workloads, environments and resources deployed by Humanitec Platform Orchestrator.
+Plugin includes an Entity ComponentCard, Backend API route and scaffolder actions.
+"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/humanitec.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://humanitec.com
+      title: Author
+      type: author
+    - url: https://github.com/humanitec/humanitec-backstage-plugins
+      title: Documentation
+      type: doc
+    - url: /img/humanitec-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Deployment
+  displayName: humanitec
+spec:
+  type: service
+  lifecycle: production
+  owner: Humanitec
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: IBM APIC EntityProvider
+  description: "Bring IBM APIC to Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/ibm-apic-backend.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://croz.net/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=backstage-ibm-apic-backend
+      title: Author
+      type: author
+    - url: https://github.com/croz-ltd/apic-backend-plugin?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=backstage-ibm-apic-backend
+      title: Documentation
+      type: doc
+    - url: https://croz.net/app/uploads/2024/05/apple-touch-icon.png
+      title: Icon
+      type: icon
+  tags:
+    - API Management
+  displayName: ibm-apic-backend
+spec:
+  type: service
+  lifecycle: production
+  owner: croz.net
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: iLert
+  description: "iLert is a platform for alerting, on-call management and uptime monitoring targeted at DevOps and IT teams."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/ilert.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.ilert.com
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/ilert/plugins/ilert
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/13230510?s=200&v=4
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: ilert
+spec:
+  type: service
+  lifecycle: production
+  owner: iLert
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: InfraWallet
+  description: "Control your cloud costs just in the way how you control your bank accounts."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/infrawallet.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://opensource.electrolux.one/
+      title: Author
+      type: author
+    - url: https://github.com/electrolux-oss/infrawallet/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: /img/infrawallet-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - FinOps
+  displayName: infrawallet
+spec:
+  type: service
+  lifecycle: production
+  owner: Electrolux Group
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Jenkins
+  description: "Jenkins offers a simple way to set up a continuous integration and continuous delivery environment."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/jenkins.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/timja
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/jenkins/plugins/jenkins
+      title: Documentation
+      type: doc
+    - url: https://img.icons8.com/color/1600/jenkins.png
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: jenkins
+spec:
+  type: service
+  lifecycle: production
+  owner: @timja
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: JFrog Artifactory Libs plugin
+  description: "frontend plugin provides a simple way to display generated artifact (library) details like - group, artifact, repository, what is the latest version, and it simply allows to copy library definition for the package managers."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/jfrog-artifactory-libs.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/Vity01
+      title: Author
+      type: author
+    - url: https://github.com/Vity01/backstage-jfrog-artifactory-libs
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/Vity01/backstage-jfrog-artifactory-libs/main/doc/artifactory.svg
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: jfrog-artifactory-libs
+spec:
+  type: service
+  lifecycle: production
+  owner: Vity
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Container Image Registry for JFrog Artifactory
+  description: "View container image details from JFrog Artifactory in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/jfrog-artifactory.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://redhat.com
+      title: Author
+      type: author
+    - url: https://janus-idp.io/plugins/jfrog-artifactory
+      title: Documentation
+      type: doc
+    - url: https://janus-idp.io/images/plugins/jfrog-artifactory.svg
+      title: Icon
+      type: icon
+  tags:
+    - Image
+  displayName: jfrog-artifactory
+spec:
+  type: service
+  lifecycle: production
+  owner: Red Hat
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Jira Dashboard
+  description: "Allows you to fetch and display Jira issues for your entity. You get quickly access to issue summaries to achieve better task visibility and more efficient project management."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/jira-dashboard.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/AxisCommunications
+      title: Author
+      type: author
+    - url: https://github.com/AxisCommunications/backstage-plugins/blob/main/plugins/jira-dashboard/README.md
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/AxisCommunications/backstage-plugins/main/plugins/jira-dashboard/media/jira-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Agile Planning
+  displayName: jira-dashboard
+spec:
+  type: service
+  lifecycle: production
+  owner: AxisCommunications
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Jira
+  description: "View Jira summary for your projects in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/jira.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=jira
+      title: Author
+      type: author
+    - url: https://roadie.io/backstage/plugins/jira/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=jira
+      title: Documentation
+      type: doc
+    - url: https://roadie.io/images/logos/jira.png
+      title: Icon
+      type: icon
+  tags:
+    - Agile Planning
+  displayName: jira
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: k8sgpt
+  description: "show all k8sgpt results of the k8sgpt operator related to your entity"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/k8sgpt.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/suxess-it
+      title: Author
+      type: author
+    - url: https://github.com/suxess-it/backstage-plugin-k8sgpt/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/k8sgpt-ai/k8sgpt/1a81227d6148be59b7b9ae4e9ae5e2d9a5b7a9ae/images/banner-white.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: k8sgpt
+spec:
+  type: service
+  lifecycle: production
+  owner: suxess-it
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kafka
+  description: "Observability for Apache Kafka clusters and async API of components."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/kafka.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/nirga
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/kafka/plugins/kafka
+      title: Documentation
+      type: doc
+    - url: https://kafka.apache.org/images/apache-kafka.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: kafka
+spec:
+  type: service
+  lifecycle: production
+  owner: @nirga
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Authentication and Authorization with Keycloak
+  description: "Load users and groups from Keycloak, enabling use of multiple authentication providers to be applied to Backstage entities."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/keycloak.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://redhat.com
+      title: Author
+      type: author
+    - url: https://janus-idp.io/plugins/keycloak
+      title: Documentation
+      type: doc
+    - url: https://janus-idp.io/images/plugins/keycloak.svg
+      title: Icon
+      type: icon
+  tags:
+    - Authentication/Authorization
+  displayName: keycloak
+spec:
+  type: service
+  lifecycle: production
+  owner: Red Hat
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kiali Service Mesh
+  description: "Configure, visualize, validate and troubleshoot your mesh with Istio"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/kiali.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://redhat.com
+      title: Author
+      type: author
+    - url: https://janus-idp.io/plugins/kiali
+      title: Documentation
+      type: doc
+    - url: https://janus-idp.io/images/plugins/kiali.svg
+      title: Icon
+      type: icon
+  tags:
+    - Istio
+  displayName: kiali
+spec:
+  type: service
+  lifecycle: production
+  owner: Red Hat
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: VeeCode Kong Service Manager
+  description: "The Kong Service Manager plugin provides information about the kong service, a list of the routes it has and also offers the possibility of manipulating plugins without leaving the backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/kong-service-manager.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://platform.vee.codes/
+      title: Author
+      type: author
+    - url: https://platform.vee.codes/plugin/Kong%20Service%20Manager/
+      title: Documentation
+      type: doc
+    - url: https://veecode-platform.github.io/support/imgs/logo_3.svg
+      title: Icon
+      type: icon
+  tags:
+    - api-manager
+  displayName: kong-service-manager
+spec:
+  type: service
+  lifecycle: production
+  owner: VeeCode Platform
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Configuration as Data
+  description: "Configuration GUI over GitOps using kpt, with WYSIWYG editing, review and approval, versioning and undo, and package cloning and upgrades."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/kpt-config-as-data.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://kpt.dev
+      title: Author
+      type: author
+    - url: https://github.com/GoogleContainerTools/kpt-backstage-plugins/tree/main/plugins/cad
+      title: Documentation
+      type: doc
+    - url: https://github.com/GoogleContainerTools/kpt/blob/main/logo/KptLogoSmall.png?raw=true
+      title: Icon
+      type: icon
+  tags:
+    - Configuration Management
+  displayName: kpt-config-as-data
+spec:
+  type: service
+  lifecycle: production
+  owner: kpt
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kubecost
+  description: "Get cost insights from Kubecost Installation for your k8s deployments"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/kubecost.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/suxess-it
+      title: Author
+      type: author
+    - url: https://github.com/suxess-it/backstage-plugin-kubecost/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/45108136?s=200&v=4
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: kubecost
+spec:
+  type: service
+  lifecycle: production
+  owner: suxess-it
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kubernetes Entity Provider
+  description: "Import Kubernetes resources into Backstage Components"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/kubernetes-provider.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/antoinedao
+      title: Author
+      type: author
+    - url: https://github.com/AntoineDao/backstage-provider-kubernetes#readme
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/13629408
+      title: Icon
+      type: icon
+  tags:
+    - Kubernetes
+  displayName: kubernetes-provider
+spec:
+  type: service
+  lifecycle: production
+  owner: Antoine Dao
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: KubeVela
+  description: "KubeVela is a modern software delivery platform that makes deploying and operating applications across today''s hybrid, multi-cloud environments easier, faster and more reliable."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/kubevela.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/charlie0129
+      title: Author
+      type: author
+    - url: https://github.com/kubevela-contrib/backstage-plugin-kubevela
+      title: Documentation
+      type: doc
+    - url: https://kubevela.io/img/logo.svg
+      title: Icon
+      type: icon
+  tags:
+    - App Delivery
+  displayName: kubevela
+spec:
+  type: service
+  lifecycle: production
+  owner: Charlie Chiang
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: LDAP Auth
+  description: "Authenticate users to an external LDAP server"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/ldap-auth.yml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/immobiliare
+      title: Author
+      type: author
+    - url: https://github.com/immobiliare/backstage-plugin-ldap-auth/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/10090828
+      title: Icon
+      type: icon
+  tags:
+    - Authentication/Authorization
+  displayName: ldap-auth
+spec:
+  type: service
+  lifecycle: production
+  owner: ImmobiliareLabs
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Library Check
+  description: "Check the status of project package or library based on main registries"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/library-check.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/anakzr
+      title: Author
+      type: author
+    - url: https://github.com/anakzr/backstage-plugin-library-check
+      title: Documentation
+      type: doc
+    - url: /img/library-check-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Services
+  displayName: library-check
+spec:
+  type: service
+  lifecycle: production
+  owner: anakzr
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Lighthouse
+  description: "Google''s Lighthouse tool is a great resource for benchmarking and improving the accessibility, performance, SEO, and best practices of your website."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/lighthouse.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/lighthouse/plugins/lighthouse
+      title: Documentation
+      type: doc
+    - url: https://seeklogo.com/images/G/google-lighthouse-logo-1C7FA08580-seeklogo.com.png
+      title: Icon
+      type: icon
+  tags:
+    - Quality
+  displayName: lighthouse
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Linguist
+  description: "View the programming language break down for your entities within the Software Catalog"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/linguist.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://keyloop.com/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/linguist/plugins/linguist/README.md
+      title: Documentation
+      type: doc
+    - url: /img/linguist.svg
+      title: Icon
+      type: icon
+  tags:
+    - Metadata
+  displayName: linguist
+spec:
+  type: service
+  lifecycle: production
+  owner: Keyloop
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Litmus
+  description: "This plugin lets you view the status of Litmus resources and launch Chaos Experiments directly inside Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/litmus.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/litmuschaos/backstage-plugin
+      title: Author
+      type: author
+    - url: https://github.com/litmuschaos/backstage-plugin/blob/master/README.md
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/cncf/artwork/master/projects/litmus/icon/color/litmus-icon-color.svg
+      title: Icon
+      type: icon
+  tags:
+    - Chaos Engineering
+  displayName: litmus
+spec:
+  type: service
+  lifecycle: production
+  owner: litmuschaos.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Mia Platform Sync
+  description: "Elevate your workflow with our plugin that seamlessly integrates your Mia-Platform components into Backstage. Keep your information synchronized effortlessly and gain insights into your company''s domains, projects, deployment environments, and repository links, all while exploring their interrelations."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/mia-platform.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://mia-platform.eu
+      title: Author
+      type: author
+    - url: https://github.com/mia-platform/backstage-plugin/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: /img/mia-platform.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: mia-platform
+spec:
+  type: service
+  lifecycle: production
+  owner: Mia-Platform
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Microcks
+  description: "Import API definitions (OpenAPI, AsyncAPI, gRPC) from Microcks instances, linking to their mock endpoints and test results."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/microcks.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://microcks.io
+      title: Author
+      type: author
+    - url: https://github.com/microcks/microcks-backstage-provider
+      title: Documentation
+      type: doc
+    - url: https://microcks.io/images/microcks-logo-blue.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: microcks
+spec:
+  type: service
+  lifecycle: production
+  owner: Microcks
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Microsoft Calendar
+  description: "The plugin integrates with your Microsoft Calendar.
+It displays all your calendars and events in it.
+"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/microsoft-calendar.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://statusneo.com/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/microsoft-calendar/plugins/microsoft-calendar
+      title: Documentation
+      type: doc
+  tags:
+    - Productivity
+  displayName: microsoft-calendar
+spec:
+  type: service
+  lifecycle: production
+  owner: StatusNeo
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Microsoft Forms
+  description: "Embed a form into the entity page with ease!"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/microsoft-forms.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/zcmander
+      title: Author
+      type: author
+    - url: https://github.com/zcmander/backstage-plugin-msforms
+      title: Documentation
+      type: doc
+    - url: /img/microsoft-forms.png
+      title: Icon
+      type: icon
+  tags:
+    - Productivity
+  displayName: microsoft-forms
+spec:
+  type: service
+  lifecycle: production
+  owner: ZcMander
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: New Relic
+  description: "Observability platform built to help engineers create and monitor their software."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/new-relic.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/timwheelercom
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/newrelic/plugins/newrelic
+      title: Documentation
+      type: doc
+    - url: https://www.mulesoft.com/sites/default/files/2018-10/New_relic.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: new-relic
+spec:
+  type: service
+  lifecycle: production
+  owner: @timwheelercom
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: New Relic Dashboard
+  description: "Easily view your New Relic Dashboards in Backstage, via real-time snapshots of your dashboards"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/newrelic-dashboard.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/mufaddal7
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/newrelic/plugins/newrelic-dashboard/README.md
+      title: Documentation
+      type: doc
+    - url: https://newrelic.com/themes/custom/erno/assets/mediakit/new_relic_logo_vertical_white.svg
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: newrelic-dashboard
+spec:
+  type: service
+  lifecycle: production
+  owner: @mufaddal7
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Nexus Repository Manager
+  description: "View information about the build artifacts in your Nexus Repository Manager in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/nexus-repository-manager.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://redhat.com
+      title: Author
+      type: author
+    - url: https://janus-idp.io/plugins/nexus-repository-manager
+      title: Documentation
+      type: doc
+    - url: https://janus-idp.io/images/plugins/nexus-repository-manager.svg
+      title: Icon
+      type: icon
+  tags:
+    - Image
+  displayName: nexus-repository-manager
+spec:
+  type: service
+  lifecycle: production
+  owner: Red Hat
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Nobl9
+  description: "View and drill down into the reliability of your services via Nobl9 SLOs and error budgets."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/nobl9.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://nobl9.com
+      title: Author
+      type: author
+    - url: https://github.com/nobl9/nobl9-backstage-plugin/blob/main/README.MD
+      title: Documentation
+      type: doc
+    - url: /img/nobl9.svg
+      title: Icon
+      type: icon
+  tags:
+    - Reliability
+  displayName: nobl9
+spec:
+  type: service
+  lifecycle: production
+  owner: Nobl9
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Multi Cluster View with OCM
+  description: "View clusters from OCM''s MultiClusterHub and MultiCluster Engine in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/ocm.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://redhat.com
+      title: Author
+      type: author
+    - url: https://janus-idp.io/plugins/ocm
+      title: Documentation
+      type: doc
+    - url: https://janus-idp.io/images/plugins/ocm.svg
+      title: Icon
+      type: icon
+  tags:
+    - Infrastructure
+  displayName: ocm
+spec:
+  type: service
+  lifecycle: production
+  owner: Red Hat
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Octopus Deploy
+  description: "Easily view your Octopus Deploy releases within the Software Catalog"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/octopus-deploy.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://jmezach.github.io/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/octopus-deploy/plugins/octopus-deploy/README.md
+      title: Documentation
+      type: doc
+    - url: /img/octopus-deploy.svg
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: octopus-deploy
+spec:
+  type: service
+  lifecycle: production
+  owner: jmezach
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Okta Organization Entity Provider
+  description: "Load users and groups from Okta into the Backstage catalog."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/okta-entity-providers.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=okta-entity-provider
+      title: Author
+      type: author
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins/tree/main/plugins/backend/catalog-backend-module-okta
+      title: Documentation
+      type: doc
+    - url: https://roadie.io/images/logos/okta.png
+      title: Icon
+      type: icon
+  tags:
+    - Authentication/Authorization
+  displayName: okta-entity-providers
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: OPA Permissions Wrapper
+  description: "Manage your Backstage permissions with OPA (Open Policy Agent)!"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/opa-permissions-wrapper.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/Parsifal-M
+      title: Author
+      type: author
+    - url: https://github.com/Parsifal-M/backstage-opa-plugins/blob/main/plugins/permission-backend-module-opa-wrapper/README.md
+      title: Documentation
+      type: doc
+    - url: /img/opapermlogo.png
+      title: Icon
+      type: icon
+  tags:
+    - Authentication/Authorization
+  displayName: opa-permissions-wrapper
+spec:
+  type: service
+  lifecycle: production
+  owner: Peter Macdonald
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: OpenDORA
+  description: "View DORA metrics within Backstage using DevLake."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/open-dora.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.devoteam.com/
+      title: Author
+      type: author
+    - url: https://github.com/DevoteamNL/opendora/tree/main/backstage-plugin/plugins/open-dora#readme
+      title: Documentation
+      type: doc
+    - url: /img/open-dora-icon.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: open-dora
+spec:
+  type: service
+  lifecycle: production
+  owner: Devoteam
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: OpenCost
+  description: "OpenCost provides cloud cost monitoring for your cloud native environments."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/opencost.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://opencost.io
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/opencost/plugins/opencost/README.md
+      title: Documentation
+      type: doc
+    - url: /img/opencost.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: opencost
+spec:
+  type: service
+  lifecycle: production
+  owner: Matt Ray
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Opsgenie
+  description: "Opsgenie offers a simple way to associate alerts to components and visualize incidents."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/opsgenie.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/K-Phoen
+      title: Author
+      type: author
+    - url: https://github.com/K-Phoen/backstage-plugin-opsgenie/
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/1818843?s=200&v=4
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: opsgenie
+spec:
+  type: service
+  lifecycle: production
+  owner: K-Phoen
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Service Maturity
+  description: "Integrate with OpsLevel to track performance against your engineering best practices and service maturity."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/opslevel-maturity.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.opslevel.com/
+      title: Author
+      type: author
+    - url: https://github.com/OpsLevel/backstage-plugin
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/44910550?s=200&v=4
+      title: Icon
+      type: icon
+  tags:
+    - Quality
+  displayName: opslevel-maturity
+spec:
+  type: service
+  lifecycle: production
+  owner: OpsLevel
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Ozone
+  description: "View pipeline runs, builds from your Ozone account.
+"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/ozone.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.ozone.one/
+      title: Author
+      type: author
+    - url: https://docs.ozone.one/ozone-end-user-guide/~/changes/7YIrhOgqbpKF1lkWsq0G/guides/ozone-backstage-plugin
+      title: Documentation
+      type: doc
+    - url: /img/ozone-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: ozone
+spec:
+  type: service
+  lifecycle: production
+  owner: ozone-one
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: PagerDuty
+  description: "Bring the power of PagerDuty to Backstage, reduce cognitive load, improve service visibility and enforce incident management best practices."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/pager-duty.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/pagerduty
+      title: Author
+      type: author
+    - url: https://pagerduty.github.io/backstage-plugin-docs/index.html
+      title: Documentation
+      type: doc
+    - url: https://avatars2.githubusercontent.com/u/766800?s=200&v=4
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: pager-duty
+spec:
+  type: service
+  lifecycle: production
+  owner: PagerDuty
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Periskop
+  description: "Periskop is a pull-based, language agnostic exception aggregator for microservice environments."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/periskop.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://periskop.io/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/periskop/plugins/periskop
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/periskop-dev/periskop/master/docs/assets/periskop-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: periskop
+spec:
+  type: service
+  lifecycle: production
+  owner: Periskop
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Playlist
+  description: "Create, share, and follow custom collections of entities available in the Backstage catalog."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/playlist.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/kuangp
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/playlist/plugins/playlist
+      title: Documentation
+      type: doc
+    - url: /img/playlist-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: playlist
+spec:
+  type: service
+  lifecycle: production
+  owner: Phil Kuang
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Prometheus
+  description: "Prometheus plugin provides visualization of Prometheus metrics and alerts"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/prometheus.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io
+      title: Author
+      type: author
+    - url: https://roadie.io/backstage/plugins/prometheus/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=prometheus
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/3380462?s=200&v=4
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: prometheus
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Pulumi
+  description: "Use Pulumi scaffolder actions and view Pulumi stack information in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/pulumi.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.pulumi.com
+      title: Author
+      type: author
+    - url: https://github.com/pulumi/pulumi-backstage-plugin
+      title: Documentation
+      type: doc
+    - url: https://www.pulumi.com/logos/brand/avatar-on-white.png
+      title: Icon
+      type: icon
+  tags:
+    - Infrastructure
+  displayName: pulumi
+spec:
+  type: service
+  lifecycle: production
+  owner: Pulumi
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: PuppetDB
+  description: "Visualize resource information and Puppet facts from PuppetDB."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/puppetdb.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/tdabasinskas
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/puppetdb/plugins/puppetdb/README.md
+      title: Documentation
+      type: doc
+    - url: /img/puppet.png
+      title: Icon
+      type: icon
+  tags:
+    - Configuration Management
+  displayName: puppetdb
+spec:
+  type: service
+  lifecycle: production
+  owner: TDabasinskas
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Q&A
+  description: "Ask and answer questions within Backstage"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/qeta.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/drodil
+      title: Author
+      type: author
+    - url: https://github.com/drodil/backstage-plugin-qeta
+      title: Documentation
+      type: doc
+    - url: /img/qeta-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Services
+  displayName: qeta
+spec:
+  type: service
+  lifecycle: production
+  owner: drodil
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Container Image Registry for Quay
+  description: "View container image details from Quay in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/quay.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://redhat.com
+      title: Author
+      type: author
+    - url: https://janus-idp.io/plugins/quay
+      title: Documentation
+      type: doc
+    - url: https://janus-idp.io/images/plugins/quay.svg
+      title: Icon
+      type: icon
+  tags:
+    - Image
+  displayName: quay
+spec:
+  type: service
+  lifecycle: production
+  owner: Red Hat
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Rafay Kubernetes Operations Platform
+  description: "Deploy and view clusters, namespaces, workloads and more using Rafay plugin"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/rafay.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://rafay.co/
+      title: Author
+      type: author
+    - url: https://docs.rafay.co/backstage/setup/
+      title: Documentation
+      type: doc
+    - url: https://avatars.githubusercontent.com/u/33210764?s=200&v=4
+      title: Icon
+      type: icon
+  tags:
+    - Deployment
+  displayName: rafay
+spec:
+  type: service
+  lifecycle: production
+  owner: Rafay Systems
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Readme
+  description: "The Readme-plugin enables easy access and viewing of the README.md file in your entity overview."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/readme.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/AxisCommunications
+      title: Author
+      type: author
+    - url: https://github.com/AxisCommunications/backstage-plugins/blob/main/plugins/readme/README.md
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/AxisCommunications/backstage-plugins/main/plugins/readme/media/readme.png
+      title: Icon
+      type: icon
+  tags:
+    - Metadata
+  displayName: readme
+spec:
+  type: service
+  lifecycle: production
+  owner: AxisCommunications
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Revision
+  description: "Access Revision architecture diagrams from within Backstage"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/revision.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/revision-org
+      title: Author
+      type: author
+    - url: https://github.com/revision-org/backstage-plugins/tree/main/plugins/revision
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/revision-org/revision-assets/b4895ae036e99341576caf1c9bbf92ec89fb65dc/logo-black-full.svg
+      title: Icon
+      type: icon
+  tags:
+    - Visualization
+  displayName: revision
+spec:
+  type: service
+  lifecycle: production
+  owner: Revision
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Rollbar
+  description: "View Rollbar errors for your services in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/rollbar.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/andrewthauer
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/rollbar/plugins/rollbar
+      title: Documentation
+      type: doc
+    - url: https://rollbar.com/assets/media/rollbar-mark-color.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: rollbar
+spec:
+  type: service
+  lifecycle: production
+  owner: @andrewthauer
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Rootly
+  description: "Import your Backstage entities into Rootly services and view incidents & analytics."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/rootly.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://rootly.com/
+      title: Author
+      type: author
+    - url: https://github.com/rootlyhq/backstage-plugin/blob/master/README.md
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/rootlyhq/backstage-plugin/master/docs/logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: rootly
+spec:
+  type: service
+  lifecycle: production
+  owner: Rootly
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: S3 Viewer
+  description: "Visualization of S3 buckets and their contents in file explorer style."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/s3-viewer.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spreadshirt
+      title: Author
+      type: author
+    - url: https://github.com/spreadshirt/backstage-plugin-s3/
+      title: Documentation
+      type: doc
+    - url: /img/s3-bucket.svg
+      title: Icon
+      type: icon
+  tags:
+    - Infrastructure
+  displayName: s3-viewer
+spec:
+  type: service
+  lifecycle: production
+  owner: Spreadgroup
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Scaffolder .NET Actions
+  description: "Here you can find all .NET related actions to improve your scaffolder."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-dotnet.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/alefcarlos
+      title: Author
+      type: author
+    - url: https://github.com/alefcarlos/plusultra-dotnet-backstage-plugins/blob/main/plugins/scaffolder-dotnet-backend/README.md
+      title: Documentation
+      type: doc
+    - url: /img/scaffolder-backend-dotnet-icon.png
+      title: Icon
+      type: icon
+  tags:
+    - Scaffolder
+  displayName: scaffolder-backend-dotnet
+spec:
+  type: service
+  lifecycle: production
+  owner: Alef Carlos
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Scaffolder Git Actions
+  description: "Easily run git CLI commands from your scaffolder actions"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-git.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/arhill05
+      title: Author
+      type: author
+    - url: https://github.com/arhill05/backstage-plugin-scaffolder-git-actions#readme
+      title: Documentation
+      type: doc
+    - url: https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png
+      title: Icon
+      type: icon
+  tags:
+    - Scaffolder
+  displayName: scaffolder-backend-git
+spec:
+  type: service
+  lifecycle: production
+  owner: Drew Hill
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Scaffolder Backend Module Rails
+  description: "Here you can find all Rails related features to improve your scaffolder."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-module-rails.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://angeliski.com.br/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-rails/README.md
+      title: Documentation
+      type: doc
+    - url: /img/rails-icon.png
+      title: Icon
+      type: icon
+  tags:
+    - Scaffolder
+  displayName: scaffolder-backend-module-rails
+spec:
+  type: service
+  lifecycle: production
+  owner: Rogerio Angeliski
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Microsoft Teams Scaffolder Actions
+  description: "Interact with Microsoft Teams from Scaffolder templates"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-ms-teams.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/grvpandey11
+      title: Author
+      type: author
+    - url: https://github.com/grvpandey11/backstage-plugin-scaffolder-backend-module-ms-teams/tree/main#readme
+      title: Documentation
+      type: doc
+  tags:
+    - Scaffolder
+  displayName: scaffolder-backend-ms-teams
+spec:
+  type: service
+  lifecycle: production
+  owner: Gaurav Pandey
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Scaffolder odo CLI actions
+  description: "Collection of actions to run odo CLI commands. odo is a developer-focused CLI for container-based application development on Podman and Kubernetes."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-odo.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://developers.redhat.com
+      title: Author
+      type: author
+    - url: https://github.com/redhat-developer/backstage-odo-devfile-plugin/blob/main/packages/scaffolder-odo-actions-backend/README.md
+      title: Documentation
+      type: doc
+    - url: https://odo.dev/img/logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Scaffolder
+  displayName: scaffolder-backend-odo
+spec:
+  type: service
+  lifecycle: production
+  owner: Red Hat
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Scaffolder AWS CLI actions
+  description: "Scaffolder actions you can trigger for Amazon Web Services."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-roadie-aws.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=scaffolder-aws
+      title: Author
+      type: author
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins/blob/main/plugins/scaffolder-actions/scaffolder-backend-module-aws/README.md
+      title: Documentation
+      type: doc
+    - url: https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg
+      title: Icon
+      type: icon
+  tags:
+    - Scaffolder
+  displayName: scaffolder-backend-roadie-aws
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Scaffolder HTTP request action
+  description: "An action to fire an arbitrary HTTP request"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-roadie-http-request.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=scaffolder-http-request
+      title: Author
+      type: author
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins/blob/main/plugins/scaffolder-actions/scaffolder-backend-module-http-request/README.md
+      title: Documentation
+      type: doc
+    - url: /img/scaffolder-http-request-logo.svg
+      title: Icon
+      type: icon
+  tags:
+    - Scaffolder
+  displayName: scaffolder-backend-roadie-http-request
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Scaffolder utility actions
+  description: "A collection of utility actions including sleep, zip and file manipulation."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-roadie-utils.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=scaffolder-utils
+      title: Author
+      type: author
+    - url: https://github.com/RoadieHQ/roadie-backstage-plugins/blob/main/plugins/scaffolder-actions/scaffolder-backend-module-utils/README.md
+      title: Documentation
+      type: doc
+    - url: /img/scaffolder-utils-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Scaffolder
+  displayName: scaffolder-backend-roadie-utils
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Slack Scaffolder Actions
+  description: "Interact with Slack from scaffolder templates"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-slack.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/arhill05
+      title: Author
+      type: author
+    - url: https://github.com/arhill05/backstage-plugin-scaffolder-backend-module-slack#readme
+      title: Documentation
+      type: doc
+    - url: /img/Slack-mark-RGB.png
+      title: Icon
+      type: icon
+  tags:
+    - Scaffolder
+  displayName: scaffolder-backend-slack
+spec:
+  type: service
+  lifecycle: production
+  owner: Drew Hill
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Devfile Selector Field Extension
+  description: "Devfile Selector Field Extension to use in your Software Templates. Devfile is an open standard defining containerized development environments."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-frontend-devfile-field.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://developers.redhat.com
+      title: Author
+      type: author
+    - url: https://github.com/redhat-developer/backstage-odo-devfile-plugin/blob/main/packages/devfile-field-extension/README.md
+      title: Documentation
+      type: doc
+    - url: https://landscape.cncf.io/logos/devfile.svg
+      title: Icon
+      type: icon
+  tags:
+    - Scaffolder
+  displayName: scaffolder-frontend-devfile-field
+spec:
+  type: service
+  lifecycle: production
+  owner: Red Hat
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: System scoring
+  description: "Visualization of maturity (and improving it) of services/systems thanks to a review process."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/score-card.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/Oriflame
+      title: Author
+      type: author
+    - url: https://github.com/Oriflame/backstage-plugins/tree/main/plugins/score-card
+      title: Documentation
+      type: doc
+    - url: /img/score-card-plugin-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Quality
+  displayName: score-card
+spec:
+  type: service
+  lifecycle: production
+  owner: Oriflame
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Azure DevOps Wiki Search
+  description: "Index wiki articles from an Azure DevOps wiki into Backstage to allow you to search them with the Backstage Search feature."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/search-backend-module-azure-devops-wiki.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/arhill05
+      title: Author
+      type: author
+    - url: https://github.com/arhill05/backstage-plugin-search-backend-module-azure-devops-wiki#readme
+      title: Documentation
+      type: doc
+    - url: /img/ado-wiki-search-icon.png
+      title: Icon
+      type: icon
+  tags:
+    - Search
+  displayName: search-backend-module-azure-devops-wiki
+spec:
+  type: service
+  lifecycle: production
+  owner: Drew Hill
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Search extension for Azure Cognitive Search
+  description: "Search extension plugin to create backstage search indexes into Azure Cognitive Search."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/search-backend-module-cognitive-search.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.ap-com.co.jp/en/
+      title: Author
+      type: author
+    - url: https://github.com/ap-communications/platt-backstage-plugin/tree/main/plugins/search-backend-module-cognitive-search
+      title: Documentation
+      type: doc
+  tags:
+    - Search
+  displayName: search-backend-module-cognitive-search
+spec:
+  type: service
+  lifecycle: production
+  owner: AP Communications
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Security Insights
+  description: "View Security Insights for your components in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/security-insights.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=security-insights
+      title: Author
+      type: author
+    - url: https://roadie.io/backstage/plugins/security-insights/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=security-insights
+      title: Documentation
+      type: doc
+    - url: https://roadie.io/images/logos/github.png
+      title: Icon
+      type: icon
+  tags:
+    - Security
+  displayName: security-insights
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Sentry
+  description: "View Sentry issues in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/sentry.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/sentry/plugins/sentry
+      title: Documentation
+      type: doc
+    - url: https://sentry-brand.storage.googleapis.com/sentry-glyph-white.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: sentry
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Shortcuts
+  description: "The shortcuts plugin allows a user to have easy access to pages within a Backstage app by storing them as ''shortcuts'' in the Sidebar."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/shortcuts.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/shortcuts/plugins/shortcuts/README.md
+      title: Documentation
+      type: doc
+    - url: /img/shortcuts.svg
+      title: Icon
+      type: icon
+  tags:
+    - Utility
+  displayName: shortcuts
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Should I Deploy Today?
+  description: "Can I deploy this plugin if it''s Friday? Oh, hell no!!!"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/should-i-deploy.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/NandoRFS
+      title: Author
+      type: author
+    - url: https://github.com/NandoRFS/backstage-plugin-should-i-deploy/
+      title: Documentation
+      type: doc
+    - url: /img/should-i-deploy-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Humor
+  displayName: should-i-deploy
+spec:
+  type: service
+  lifecycle: production
+  owner: NandoRFS
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Snyk
+  description: "View Snyk scanned vulnerabilities and license compliance of your components directly in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/snyk-security.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://snyk.io
+      title: Author
+      type: author
+    - url: https://github.com/snyk-tech-services/backstage-plugin-snyk/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: https://github.com/snyk-tech-services/backstage-plugin-snyk/assets/109112986/95eb1b06-b3e8-4910-9233-11926e02fa18
+      title: Icon
+      type: icon
+  tags:
+    - Security
+  displayName: snyk-security
+spec:
+  type: service
+  lifecycle: production
+  owner: Snyk Tech Services
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Solo.io Gloo Platform Portal
+  description: "View, test, and manage your Gloo Platform Portal APIs through our Backstage plugin."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/solo-io-gloo-platform-portal.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://solo.io
+      title: Author
+      type: author
+    - url: https://github.com/solo-io/backstage-plugins-overview#readme
+      title: Documentation
+      type: doc
+    - url: /img/solo-io-glooy-circle.png.webp
+      title: Icon
+      type: icon
+  tags:
+    - Infrastructure
+  displayName: solo-io-gloo-platform-portal
+spec:
+  type: service
+  lifecycle: production
+  owner: Solo.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: SonarQube
+  description: "Components to display code quality metrics from SonarCloud and SonarQube."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/sonarqube.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://sda.se/
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/sonarqube/plugins/sonarqube/README.md
+      title: Documentation
+      type: doc
+    - url: /img/sonarqube-icon.svg
+      title: Icon
+      type: icon
+  tags:
+    - Quality
+  displayName: sonarqube
+spec:
+  type: service
+  lifecycle: production
+  owner: SDA SE
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Splunk On-Call
+  description: "Splunk On-Call offers a simple way to identify incidents and escalation policies."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/splunk-on-call.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/ayshiff
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/splunk/plugins/splunk-on-call
+      title: Documentation
+      type: doc
+    - url: /img/splunk-black-white-bg.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: splunk-on-call
+spec:
+  type: service
+  lifecycle: production
+  owner: ayshiff
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Stack Overflow
+  description: "Provides Stack Overflow specific functionality that can be used in different ways (e.g. for homepage and search) to compose your Backstage App."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/stack-overflow.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/blob/main/workspaces/stack-overflow/plugins/stack-overflow/README.md
+      title: Documentation
+      type: doc
+    - url: /img/stack-overflow-logo.svg
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: stack-overflow
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: StackStorm
+  description: "Manage StackStorm workflow executions from within Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/stackstorm.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/ExpediaGroup
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/stackstorm/plugins/stackstorm
+      title: Documentation
+      type: doc
+    - url: /img/stackstorm.png
+      title: Icon
+      type: icon
+  tags:
+    - Automation
+  displayName: stackstorm
+spec:
+  type: service
+  lifecycle: production
+  owner: ExpediaGroup
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Statusneo GitHub Plugin
+  description: "Provides status cards GitHub pull requests and GitHub actions."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/statusneo-github-plugin.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://statusneo.com/
+      title: Author
+      type: author
+    - url: https://github.com/StatusNeo/backstage-plugin-github
+      title: Documentation
+      type: doc
+    - url: /img/github-statusneo.png
+      title: Icon
+      type: icon
+  tags:
+    - Source Control Mgmt
+  displayName: statusneo-github-plugin
+spec:
+  type: service
+  lifecycle: production
+  owner: Statusneo
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Statuspage.io Plugin
+  description: "The Statuspage plugin allows you to embedd https://statuspage.io components, component groups and dashboards in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/statuspage.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/AxisCommunications
+      title: Author
+      type: author
+    - url: https://github.com/AxisCommunications/backstage-plugins/blob/main/plugins/statuspage/README.md
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/AxisCommunications/backstage-plugins/main/plugins/statuspage/media/logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: statuspage
+spec:
+  type: service
+  lifecycle: production
+  owner: AxisCommunications
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Sysdig
+  description: "Generate security reports using Sysdig Secure"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/sysdig.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://sysdig.com/
+      title: Author
+      type: author
+    - url: https://github.com/sysdiglabs/backstage-plugin-sysdig/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: https://sysdig.com/wp-content/uploads/sysdig-logo-new-white.svg
+      title: Icon
+      type: icon
+  tags:
+    - Security
+  displayName: sysdig
+spec:
+  type: service
+  lifecycle: production
+  owner: Sysdig
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Tech Insights
+  description: "Visualize, understand and optimize your team''s tech health."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/tech-insights.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/RoadieHQ
+      title: Author
+      type: author
+    - url: https://roadie.io/backstage/plugins/tech-insights/
+      title: Documentation
+      type: doc
+    - url: https://roadie.io/images/logos/tech-insights.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: tech-insights
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Tech Radar
+  description: "Visualize the your company''s official guidelines of different areas of software development."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/tech-radar.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/tech-radar/plugins/tech-radar
+      title: Documentation
+      type: doc
+    - url: https://www.materialui.co/materialIcons/action/track_changes_white_192x192.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: tech-radar
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Tekton Pipelines
+  description: "View the status of the Tekton PipelineRun resources."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/tekton-pipelines.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/jquad-group
+      title: Author
+      type: author
+    - url: https://github.com/jquad-group/backstage-jquad#readme
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/jquad-group/backstage-jquad/main/img/tekton-horizontal-color.png
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: tekton-pipelines
+spec:
+  type: service
+  lifecycle: production
+  owner: JQuad Group
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Pipelines with Tekton
+  description: "Easily view Tekton PipelineRun status for your services in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/tekton.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://redhat.com
+      title: Author
+      type: author
+    - url: https://janus-idp.io/plugins/tekton
+      title: Documentation
+      type: doc
+    - url: https://janus-idp.io/images/plugins/tekton.svg
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: tekton
+spec:
+  type: service
+  lifecycle: production
+  owner: Red Hat
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: TimeSaver
+  description: "Visualise your time saved using Backstage Scaffolder templates"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/time-saver.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/tduniec
+      title: Author
+      type: author
+    - url: https://github.com/tduniec/backstage-timesaver-plugin/blob/main/README.md
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/tduniec/backstage-timesaver-plugin/main/img/tsLogo.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: time-saver
+spec:
+  type: service
+  lifecycle: production
+  owner: tduniec
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Tips
+  description: "The tips plugin will show the end user some helpful information for entities."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/tips.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/dweber019
+      title: Author
+      type: author
+    - url: https://github.com/dweber019/backstage-plugins/tree/main/plugins/tips
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/dweber019/backstage-plugins/main/plugins/tips/docs/pluginIcon.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: tips
+spec:
+  type: service
+  lifecycle: production
+  owner: dweber019
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: TODO
+  description: "Browse TODO comments in your project''s source code."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/todo.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/todo/plugins/todo
+      title: Documentation
+      type: doc
+    - url: https://backstage.io/img/todo-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Discovery
+  displayName: todo
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Toolbox
+  description: "Development related tools within Backstage"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/toolbox.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/drodil
+      title: Author
+      type: author
+    - url: https://github.com/drodil/backstage-plugin-toolbox
+      title: Documentation
+      type: doc
+    - url: /img/toolbox-logo.png
+      title: Icon
+      type: icon
+  tags:
+    - Tools
+  displayName: toolbox
+spec:
+  type: service
+  lifecycle: production
+  owner: drodil
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Application Topology for Kubernetes
+  description: "Visualize the deployment status and related resources of your applications deployed on any Kubernetes cluster."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/topology.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://redhat.com
+      title: Author
+      type: author
+    - url: https://janus-idp.io/plugins/topology
+      title: Documentation
+      type: doc
+    - url: https://janus-idp.io/images/plugins/topology.svg
+      title: Icon
+      type: icon
+  tags:
+    - Kubernetes
+  displayName: topology
+spec:
+  type: service
+  lifecycle: production
+  owner: Red Hat
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Torque
+  description: "Deploy the environments you need to keep building, testing and delivering incredible code. 
+Plugin includes an Entity ComponentCard, Backend API route and scaffolder actions.
+"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/torque.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://www.qtorque.io/
+      title: Author
+      type: author
+    - url: https://github.com/QualiTorque/torque-backstage-plugin/tree/main/packages/torque#readme
+      title: Documentation
+      type: doc
+    - url: https://user-images.githubusercontent.com/8643801/214640977-751bc338-6b77-40a0-a897-cba41b6f006a.png
+      title: Icon
+      type: icon
+  tags:
+    - Orchestration
+  displayName: torque
+spec:
+  type: service
+  lifecycle: production
+  owner: Quali
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Travis CI
+  description: "View Travis CI builds for your service in Backstage."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/travis-ci.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://roadie.io/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=travis-ci
+      title: Author
+      type: author
+    - url: https://roadie.io/backstage/plugins/travis-ci/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=travis-ci
+      title: Documentation
+      type: doc
+    - url: https://roadie.io/images/logos/travis.png
+      title: Icon
+      type: icon
+  tags:
+    - CI/CD
+  displayName: travis-ci
+spec:
+  type: service
+  lifecycle: production
+  owner: roadie.io
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Umami Analytics
+  description: "Track usage of your Backstage instance using Umami Analytics."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/umami.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/AxisCommunications
+      title: Author
+      type: author
+    - url: https://github.com/AxisCommunications/backstage-plugins/blob/main/plugins/analytics-module-umami/README.md
+      title: Documentation
+      type: doc
+    - url: /img/umami-logo.svg
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: umami
+spec:
+  type: service
+  lifecycle: production
+  owner: AxisCommunications
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Vault
+  description: "Visualize a list of the secrets stored in your HashiCorp Vault instance."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/vault.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/ivangonzalezacuna
+      title: Author
+      type: author
+    - url: https://github.com/backstage/community-plugins/tree/main/workspaces/vault/plugins/vault
+      title: Documentation
+      type: doc
+    - url: /img/vault.png
+      title: Icon
+      type: icon
+  tags:
+    - Security
+  displayName: vault
+spec:
+  type: service
+  lifecycle: production
+  owner: Spread Group
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: XCMetrics
+  description: "Discover valuable insights hiding inside Xcode’s build logs."
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/xcmetrics.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/spotify
+      title: Author
+      type: author
+    - url: https://xcmetrics.io/
+      title: Documentation
+      type: doc
+    - url: /img/xcmetrics-icon.png
+      title: Icon
+      type: icon
+  tags:
+    - Monitoring
+  displayName: xcmetrics
+spec:
+  type: service
+  lifecycle: production
+  owner: Spotify
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: xkcd comic
+  description: "xkcd comic within Backstage"
+  links:
+    - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/xkcd.yaml
+      title: Source Code on GitHub
+      icon: github
+      type: source
+    - url: https://github.com/Vity01
+      title: Author
+      type: author
+    - url: https://github.com/Vity01/backstage-xkcd/
+      title: Documentation
+      type: doc
+    - url: https://raw.githubusercontent.com/Vity01/backstage-xkcd/main/docs/xkcd.svg
+      title: Icon
+      type: icon
+  tags:
+    - Humor
+  displayName: xkcd
+spec:
+  type: service
+  lifecycle: production
+  owner: Vity
+---
+
