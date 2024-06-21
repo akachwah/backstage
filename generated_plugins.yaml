@@ -44,7 +44,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/tree/main/workspaces/adr/plugins/adr
       title: Documentation
       type: doc
-    - url: /img/adr-logo.png
+    - url: https://github.com/img/adr-logo.png
       title: Icon
       type: icon
   tags:
@@ -156,7 +156,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/blob/main/workspaces/analytics/plugins/analytics-module-ga/README.md
       title: Documentation
       type: doc
-    - url: /img/ga-icon.png
+    - url: https://github.com/img/ga-icon.png
       title: Icon
       type: icon
   tags:
@@ -184,7 +184,7 @@ metadata:
     - url: https://github.com/janus-idp/backstage-plugins/blob/main/plugins/analytics-module-matomo/README.md
       title: Documentation
       type: doc
-    - url: /img/matomo.png
+    - url: https://github.com/img/matomo.png
       title: Icon
       type: icon
   tags:
@@ -212,7 +212,7 @@ metadata:
     - url: https://github.com/quantummetric/analytics-module-qm/blob/main/README.md
       title: Documentation
       type: doc
-    - url: /img/qm-icon.png
+    - url: https://github.com/img/qm-icon.png
       title: Icon
       type: icon
   tags:
@@ -240,7 +240,7 @@ metadata:
     - url: https://github.com/procore-oss/backstage-plugin-announcements/
       title: Documentation
       type: doc
-    - url: /img/plugin-announcements-logo.png
+    - url: https://github.com/img/plugin-announcements-logo.png
       title: Icon
       type: icon
   tags:
@@ -408,7 +408,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/blob/main/workspaces/apollo-explorer/plugins/apollo-explorer/README.md
       title: Documentation
       type: doc
-    - url: /img/apollo-explorer.png
+    - url: https://github.com/img/apollo-explorer.png
       title: Icon
       type: icon
   tags:
@@ -660,7 +660,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/blob/main/workspaces/azure-devops/plugins/azure-devops/README.md
       title: Documentation
       type: doc
-    - url: /img/azure-pipelines.svg
+    - url: https://github.com/img/azure-pipelines.svg
       title: Icon
       type: icon
   tags:
@@ -738,7 +738,7 @@ metadata:
     - url: https://github.com/enfuse/asae-backstage-plugin/blob/main/README.md
       title: Documentation
       type: doc
-    - url: /img/enfuse.png
+    - url: https://github.com/img/enfuse.png
       title: Icon
       type: icon
   tags:
@@ -766,7 +766,7 @@ metadata:
     - url: https://github.com/deepan10/backstage-plugins/tree/main/plugins/azure-storage
       title: Documentation
       type: doc
-    - url: /img/azure-storage-folder.png
+    - url: https://github.com/img/azure-storage-folder.png
       title: Icon
       type: icon
   tags:
@@ -794,7 +794,7 @@ metadata:
     - url: https://github.com/benwilcock/backstage-plugin-backchat
       title: Documentation
       type: doc
-    - url: /img/backchat-logo.png
+    - url: https://github.com/img/backchat-logo.png
       title: Icon
       type: icon
   tags:
@@ -822,7 +822,7 @@ metadata:
     - url: https://backstage.io/docs/features/kubernetes/
       title: Documentation
       type: doc
-    - url: /img/backstage-k8s.svg
+    - url: https://github.com/img/backstage-k8s.svg
       title: Icon
       type: icon
   tags:
@@ -850,7 +850,7 @@ metadata:
     - url: https://backstage.io/docs/features/search/
       title: Documentation
       type: doc
-    - url: /img/backstage-search-platform.svg
+    - url: https://github.com/img/backstage-search-platform.svg
       title: Icon
       type: icon
   tags:
@@ -878,7 +878,7 @@ metadata:
     - url: https://backstage.io/docs/features/software-catalog/
       title: Documentation
       type: doc
-    - url: /img/backstage-software-catalog.svg
+    - url: https://github.com/img/backstage-software-catalog.svg
       title: Icon
       type: icon
   tags:
@@ -906,7 +906,7 @@ metadata:
     - url: https://backstage.io/docs/features/software-templates/
       title: Documentation
       type: doc
-    - url: /img/backstage-software-templates.svg
+    - url: https://github.com/img/backstage-software-templates.svg
       title: Icon
       type: icon
   tags:
@@ -934,7 +934,7 @@ metadata:
     - url: https://backstage.io/docs/features/techdocs/
       title: Documentation
       type: doc
-    - url: /img/backstage-techdocs.svg
+    - url: https://github.com/img/backstage-techdocs.svg
       title: Icon
       type: icon
   tags:
@@ -962,7 +962,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/blob/main/workspaces/badges/plugins/badges/README.md
       title: Documentation
       type: doc
-    - url: /img/badges.svg
+    - url: https://github.com/img/badges.svg
       title: Icon
       type: icon
   tags:
@@ -990,7 +990,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/blob/main/workspaces/bazaar/plugins/bazaar/README.md
       title: Documentation
       type: doc
-    - url: /img/bazaar.svg
+    - url: https://github.com/img/bazaar.svg
       title: Icon
       type: icon
   tags:
@@ -1186,7 +1186,7 @@ metadata:
     - url: https://github.com/v-ngu/backstage-plugin-bulletin-board
       title: Documentation
       type: doc
-    - url: /img/bulletin-board.png
+    - url: https://github.com/img/bulletin-board.png
       title: Icon
       type: icon
   tags:
@@ -1214,7 +1214,7 @@ metadata:
     - url: https://github.com/backstage/backstage/blob/master/plugins/catalog-backend-module-puppetdb/README.md
       title: Documentation
       type: doc
-    - url: /img/puppet.png
+    - url: https://github.com/img/puppet.png
       title: Icon
       type: icon
   tags:
@@ -1242,7 +1242,7 @@ metadata:
     - url: https://github.com/backstage/backstage/blob/master/plugins/catalog-graph/README.md
       title: Documentation
       type: doc
-    - url: /img/catalog-graph.svg
+    - url: https://github.com/img/catalog-graph.svg
       title: Icon
       type: icon
   tags:
@@ -1298,7 +1298,7 @@ metadata:
     - url: https://github.com/enfuse/backstage-chatgpt-plugin/blob/main/README.md
       title: Documentation
       type: doc
-    - url: /img/enfuse.png
+    - url: https://github.com/img/enfuse.png
       title: Icon
       type: icon
   tags:
@@ -1326,7 +1326,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/tree/main/workspaces/cicd-statistics/plugins/cicd-statistics
       title: Documentation
       type: doc
-    - url: /img/cicd-statistics.svg
+    - url: https://github.com/img/cicd-statistics.svg
       title: Icon
       type: icon
   tags:
@@ -1354,7 +1354,7 @@ metadata:
     - url: https://github.com/CircleCI-Public/backstage-plugin/tree/main/plugins/circleci
       title: Documentation
       type: doc
-    - url: /img/circleci.png
+    - url: https://github.com/img/circleci.png
       title: Icon
       type: icon
   tags:
@@ -1494,7 +1494,7 @@ metadata:
     - url: https://github.com/codacy/backstage-plugin/blob/main/README.md
       title: Documentation
       type: doc
-    - url: /img/codacy-icon.svg
+    - url: https://github.com/img/codacy-icon.svg
       title: Icon
       type: icon
   tags:
@@ -1522,7 +1522,7 @@ metadata:
     - url: https://github.com/coder/backstage-plugins/blob/main/plugins/backstage-plugin-coder/README.md
       title: Documentation
       type: doc
-    - url: /img/coder.png
+    - url: https://github.com/img/coder.png
       title: Icon
       type: icon
   tags:
@@ -1550,7 +1550,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/blob/main/workspaces/codescene/plugins/codescene
       title: Documentation
       type: doc
-    - url: /img/codescene_logo.svg
+    - url: https://github.com/img/codescene_logo.svg
       title: Icon
       type: icon
   tags:
@@ -1578,7 +1578,7 @@ metadata:
     - url: https://github.com/cortexapps/backstage-plugin
       title: Documentation
       type: doc
-    - url: /img/cortex.png
+    - url: https://github.com/img/cortex.png
       title: Icon
       type: icon
   tags:
@@ -1606,7 +1606,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/tree/main/workspaces/cost-insights/plugins/cost-insights
       title: Documentation
       type: doc
-    - url: /img/cost-insights.png
+    - url: https://github.com/img/cost-insights.png
       title: Icon
       type: icon
   tags:
@@ -1715,7 +1715,7 @@ metadata:
     - url: https://github.com/piatkiewicz/backstage-plugins/tree/main/dev-friends-days
       title: Documentation
       type: doc
-    - url: /img/dev-friends-days.jpeg
+    - url: https://github.com/img/dev-friends-days.jpeg
       title: Icon
       type: icon
   tags:
@@ -1743,7 +1743,7 @@ metadata:
     - url: https://github.com/Parsifal-M/backstage-dev-quotes?tab=readme-ov-file#dev-quotes-homepage
       title: Documentation
       type: doc
-    - url: /img/dqicon.png
+    - url: https://github.com/img/dqicon.png
       title: Icon
       type: icon
   tags:
@@ -1771,7 +1771,7 @@ metadata:
     - url: https://github.com/coder/backstage-plugins/blob/main/plugins/backstage-plugin-devcontainers-react/README.md
       title: Documentation
       type: doc
-    - url: /img/devcontainers.png
+    - url: https://github.com/img/devcontainers.png
       title: Icon
       type: icon
   tags:
@@ -1799,7 +1799,7 @@ metadata:
     - url: https://github.com/backstage/backstage/blob/master/plugins/devtools/README.md
       title: Documentation
       type: doc
-    - url: /img/devtools.svg
+    - url: https://github.com/img/devtools.svg
       title: Icon
       type: icon
   tags:
@@ -1827,7 +1827,7 @@ metadata:
     - url: https://docs.digital.ai/bundle/devops-deploy-version-v.24.1/page/deploy/concept/xl-deploy-backstage-overview.html
       title: Documentation
       type: doc
-    - url: /img/digital.ai-deploy.svg
+    - url: https://github.com/img/digital.ai-deploy.svg
       title: Icon
       type: icon
   tags:
@@ -1855,7 +1855,7 @@ metadata:
     - url: https://docs.digital.ai/bundle/devops-release-version-v.24.1/page/release/concept/release-backstage-overview.html
       title: Documentation
       type: doc
-    - url: /img/digital.ai-release.svg
+    - url: https://github.com/img/digital.ai-release.svg
       title: Icon
       type: icon
   tags:
@@ -1911,7 +1911,7 @@ metadata:
     - url: https://github.com/OkayHQ/backstage-plugin
       title: Documentation
       type: doc
-    - url: /img/okay.png
+    - url: https://github.com/img/okay.png
       title: Icon
       type: icon
   tags:
@@ -1939,7 +1939,7 @@ metadata:
     - url: https://github.com/get-dx/backstage-plugin
       title: Documentation
       type: doc
-    - url: /img/dx-icon.png
+    - url: https://github.com/img/dx-icon.png
       title: Icon
       type: icon
   tags:
@@ -1967,7 +1967,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/tree/main/workspaces/dynatrace/plugins/dynatrace
       title: Documentation
       type: doc
-    - url: /img/dynatrace.svg
+    - url: https://github.com/img/dynatrace.svg
       title: Icon
       type: icon
   tags:
@@ -1995,7 +1995,7 @@ metadata:
     - url: https://github.com/Dynatrace/backstage-plugin
       title: Documentation
       type: doc
-    - url: /img/dynatrace.svg
+    - url: https://github.com/img/dynatrace.svg
       title: Icon
       type: icon
   tags:
@@ -2051,7 +2051,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/tree/main/workspaces/entity-feedback/plugins/entity-feedback
       title: Documentation
       type: doc
-    - url: /img/entity-feedback-logo.png
+    - url: https://github.com/img/entity-feedback-logo.png
       title: Icon
       type: icon
   tags:
@@ -2079,7 +2079,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/tree/main/workspaces/entity-validation/plugins/entity-validation
       title: Documentation
       type: doc
-    - url: /img/entity-validation.svg
+    - url: https://github.com/img/entity-validation.svg
       title: Icon
       type: icon
   tags:
@@ -2107,7 +2107,7 @@ metadata:
     - url: https://github.com/janus-idp/backstage-plugins/tree/main/plugins/feedback#readme
       title: Documentation
       type: doc
-    - url: /img/plugin-feedback-logo.svg
+    - url: https://github.com/img/plugin-feedback-logo.svg
       title: Icon
       type: icon
   tags:
@@ -2303,7 +2303,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/tree/main/workspaces/git-release-manager/plugins/git-release-manager
       title: Documentation
       type: doc
-    - url: /img/git-release-manager-logo.svg
+    - url: https://github.com/img/git-release-manager-logo.svg
       title: Icon
       type: icon
   tags:
@@ -2415,7 +2415,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/tree/main/workspaces/github-pull-requests-board/plugins/github-pull-requests-board
       title: Documentation
       type: doc
-    - url: /img/github-pull-requests-board-logo.svg
+    - url: https://github.com/img/github-pull-requests-board-logo.svg
       title: Icon
       type: icon
   tags:
@@ -2863,7 +2863,7 @@ metadata:
     - url: https://github.com/hashicorp-forge/backstage-plugin-hcp-consul/tree/main
       title: Documentation
       type: doc
-    - url: /img/hcp-consul.svg
+    - url: https://github.com/img/hcp-consul.svg
       title: Icon
       type: icon
   tags:
@@ -2919,7 +2919,7 @@ metadata:
     - url: https://github.com/backstage/backstage/blob/master/plugins/home/README.md
       title: Documentation
       type: doc
-    - url: /img/home.png
+    - url: https://github.com/img/home.png
       title: Icon
       type: icon
   tags:
@@ -2975,7 +2975,7 @@ metadata:
     - url: https://github.com/humanitec/humanitec-backstage-plugins
       title: Documentation
       type: doc
-    - url: /img/humanitec-logo.png
+    - url: https://github.com/img/humanitec-logo.png
       title: Icon
       type: icon
   tags:
@@ -3059,7 +3059,7 @@ metadata:
     - url: https://github.com/electrolux-oss/infrawallet/blob/main/README.md
       title: Documentation
       type: doc
-    - url: /img/infrawallet-logo.png
+    - url: https://github.com/img/infrawallet-logo.png
       title: Icon
       type: icon
   tags:
@@ -3507,7 +3507,7 @@ metadata:
     - url: https://github.com/anakzr/backstage-plugin-library-check
       title: Documentation
       type: doc
-    - url: /img/library-check-logo.png
+    - url: https://github.com/img/library-check-logo.png
       title: Icon
       type: icon
   tags:
@@ -3563,7 +3563,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/blob/main/workspaces/linguist/plugins/linguist/README.md
       title: Documentation
       type: doc
-    - url: /img/linguist.svg
+    - url: https://github.com/img/linguist.svg
       title: Icon
       type: icon
   tags:
@@ -3619,7 +3619,7 @@ metadata:
     - url: https://github.com/mia-platform/backstage-plugin/blob/main/README.md
       title: Documentation
       type: doc
-    - url: /img/mia-platform.png
+    - url: https://github.com/img/mia-platform.png
       title: Icon
       type: icon
   tags:
@@ -3700,7 +3700,7 @@ metadata:
     - url: https://github.com/zcmander/backstage-plugin-msforms
       title: Documentation
       type: doc
-    - url: /img/microsoft-forms.png
+    - url: https://github.com/img/microsoft-forms.png
       title: Icon
       type: icon
   tags:
@@ -3812,7 +3812,7 @@ metadata:
     - url: https://github.com/nobl9/nobl9-backstage-plugin/blob/main/README.MD
       title: Documentation
       type: doc
-    - url: /img/nobl9.svg
+    - url: https://github.com/img/nobl9.svg
       title: Icon
       type: icon
   tags:
@@ -3868,7 +3868,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/blob/main/workspaces/octopus-deploy/plugins/octopus-deploy/README.md
       title: Documentation
       type: doc
-    - url: /img/octopus-deploy.svg
+    - url: https://github.com/img/octopus-deploy.svg
       title: Icon
       type: icon
   tags:
@@ -3924,7 +3924,7 @@ metadata:
     - url: https://github.com/Parsifal-M/backstage-opa-plugins/blob/main/plugins/permission-backend-module-opa-wrapper/README.md
       title: Documentation
       type: doc
-    - url: /img/opapermlogo.png
+    - url: https://github.com/img/opapermlogo.png
       title: Icon
       type: icon
   tags:
@@ -3952,7 +3952,7 @@ metadata:
     - url: https://github.com/DevoteamNL/opendora/tree/main/backstage-plugin/plugins/open-dora#readme
       title: Documentation
       type: doc
-    - url: /img/open-dora-icon.png
+    - url: https://github.com/img/open-dora-icon.png
       title: Icon
       type: icon
   tags:
@@ -3980,7 +3980,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/blob/main/workspaces/opencost/plugins/opencost/README.md
       title: Documentation
       type: doc
-    - url: /img/opencost.png
+    - url: https://github.com/img/opencost.png
       title: Icon
       type: icon
   tags:
@@ -4064,7 +4064,7 @@ metadata:
     - url: https://docs.ozone.one/ozone-end-user-guide/~/changes/7YIrhOgqbpKF1lkWsq0G/guides/ozone-backstage-plugin
       title: Documentation
       type: doc
-    - url: /img/ozone-logo.png
+    - url: https://github.com/img/ozone-logo.png
       title: Icon
       type: icon
   tags:
@@ -4148,7 +4148,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/tree/main/workspaces/playlist/plugins/playlist
       title: Documentation
       type: doc
-    - url: /img/playlist-logo.png
+    - url: https://github.com/img/playlist-logo.png
       title: Icon
       type: icon
   tags:
@@ -4232,7 +4232,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/blob/main/workspaces/puppetdb/plugins/puppetdb/README.md
       title: Documentation
       type: doc
-    - url: /img/puppet.png
+    - url: https://github.com/img/puppet.png
       title: Icon
       type: icon
   tags:
@@ -4260,7 +4260,7 @@ metadata:
     - url: https://github.com/drodil/backstage-plugin-qeta
       title: Documentation
       type: doc
-    - url: /img/qeta-logo.png
+    - url: https://github.com/img/qeta-logo.png
       title: Icon
       type: icon
   tags:
@@ -4456,7 +4456,7 @@ metadata:
     - url: https://github.com/spreadshirt/backstage-plugin-s3/
       title: Documentation
       type: doc
-    - url: /img/s3-bucket.svg
+    - url: https://github.com/img/s3-bucket.svg
       title: Icon
       type: icon
   tags:
@@ -4484,7 +4484,7 @@ metadata:
     - url: https://github.com/alefcarlos/plusultra-dotnet-backstage-plugins/blob/main/plugins/scaffolder-dotnet-backend/README.md
       title: Documentation
       type: doc
-    - url: /img/scaffolder-backend-dotnet-icon.png
+    - url: https://github.com/img/scaffolder-backend-dotnet-icon.png
       title: Icon
       type: icon
   tags:
@@ -4540,7 +4540,7 @@ metadata:
     - url: https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-rails/README.md
       title: Documentation
       type: doc
-    - url: /img/rails-icon.png
+    - url: https://github.com/img/rails-icon.png
       title: Icon
       type: icon
   tags:
@@ -4649,7 +4649,7 @@ metadata:
     - url: https://github.com/RoadieHQ/roadie-backstage-plugins/blob/main/plugins/scaffolder-actions/scaffolder-backend-module-http-request/README.md
       title: Documentation
       type: doc
-    - url: /img/scaffolder-http-request-logo.svg
+    - url: https://github.com/img/scaffolder-http-request-logo.svg
       title: Icon
       type: icon
   tags:
@@ -4677,7 +4677,7 @@ metadata:
     - url: https://github.com/RoadieHQ/roadie-backstage-plugins/blob/main/plugins/scaffolder-actions/scaffolder-backend-module-utils/README.md
       title: Documentation
       type: doc
-    - url: /img/scaffolder-utils-logo.png
+    - url: https://github.com/img/scaffolder-utils-logo.png
       title: Icon
       type: icon
   tags:
@@ -4705,7 +4705,7 @@ metadata:
     - url: https://github.com/arhill05/backstage-plugin-scaffolder-backend-module-slack#readme
       title: Documentation
       type: doc
-    - url: /img/Slack-mark-RGB.png
+    - url: https://github.com/img/Slack-mark-RGB.png
       title: Icon
       type: icon
   tags:
@@ -4761,7 +4761,7 @@ metadata:
     - url: https://github.com/Oriflame/backstage-plugins/tree/main/plugins/score-card
       title: Documentation
       type: doc
-    - url: /img/score-card-plugin-logo.png
+    - url: https://github.com/img/score-card-plugin-logo.png
       title: Icon
       type: icon
   tags:
@@ -4789,7 +4789,7 @@ metadata:
     - url: https://github.com/arhill05/backstage-plugin-search-backend-module-azure-devops-wiki#readme
       title: Documentation
       type: doc
-    - url: /img/ado-wiki-search-icon.png
+    - url: https://github.com/img/ado-wiki-search-icon.png
       title: Icon
       type: icon
   tags:
@@ -4898,7 +4898,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/blob/main/workspaces/shortcuts/plugins/shortcuts/README.md
       title: Documentation
       type: doc
-    - url: /img/shortcuts.svg
+    - url: https://github.com/img/shortcuts.svg
       title: Icon
       type: icon
   tags:
@@ -4926,7 +4926,7 @@ metadata:
     - url: https://github.com/NandoRFS/backstage-plugin-should-i-deploy/
       title: Documentation
       type: doc
-    - url: /img/should-i-deploy-logo.png
+    - url: https://github.com/img/should-i-deploy-logo.png
       title: Icon
       type: icon
   tags:
@@ -4982,7 +4982,7 @@ metadata:
     - url: https://github.com/solo-io/backstage-plugins-overview#readme
       title: Documentation
       type: doc
-    - url: /img/solo-io-glooy-circle.png.webp
+    - url: https://github.com/img/solo-io-glooy-circle.png.webp
       title: Icon
       type: icon
   tags:
@@ -5010,7 +5010,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/blob/main/workspaces/sonarqube/plugins/sonarqube/README.md
       title: Documentation
       type: doc
-    - url: /img/sonarqube-icon.svg
+    - url: https://github.com/img/sonarqube-icon.svg
       title: Icon
       type: icon
   tags:
@@ -5038,7 +5038,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/tree/main/workspaces/splunk/plugins/splunk-on-call
       title: Documentation
       type: doc
-    - url: /img/splunk-black-white-bg.png
+    - url: https://github.com/img/splunk-black-white-bg.png
       title: Icon
       type: icon
   tags:
@@ -5066,7 +5066,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/blob/main/workspaces/stack-overflow/plugins/stack-overflow/README.md
       title: Documentation
       type: doc
-    - url: /img/stack-overflow-logo.svg
+    - url: https://github.com/img/stack-overflow-logo.svg
       title: Icon
       type: icon
   tags:
@@ -5094,7 +5094,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/tree/main/workspaces/stackstorm/plugins/stackstorm
       title: Documentation
       type: doc
-    - url: /img/stackstorm.png
+    - url: https://github.com/img/stackstorm.png
       title: Icon
       type: icon
   tags:
@@ -5122,7 +5122,7 @@ metadata:
     - url: https://github.com/StatusNeo/backstage-plugin-github
       title: Documentation
       type: doc
-    - url: /img/github-statusneo.png
+    - url: https://github.com/img/github-statusneo.png
       title: Icon
       type: icon
   tags:
@@ -5402,7 +5402,7 @@ metadata:
     - url: https://github.com/drodil/backstage-plugin-toolbox
       title: Documentation
       type: doc
-    - url: /img/toolbox-logo.png
+    - url: https://github.com/img/toolbox-logo.png
       title: Icon
       type: icon
   tags:
@@ -5514,7 +5514,7 @@ metadata:
     - url: https://github.com/AxisCommunications/backstage-plugins/blob/main/plugins/analytics-module-umami/README.md
       title: Documentation
       type: doc
-    - url: /img/umami-logo.svg
+    - url: https://github.com/img/umami-logo.svg
       title: Icon
       type: icon
   tags:
@@ -5542,7 +5542,7 @@ metadata:
     - url: https://github.com/backstage/community-plugins/tree/main/workspaces/vault/plugins/vault
       title: Documentation
       type: doc
-    - url: /img/vault.png
+    - url: https://github.com/img/vault.png
       title: Icon
       type: icon
   tags:
@@ -5570,7 +5570,7 @@ metadata:
     - url: https://xcmetrics.io/
       title: Documentation
       type: doc
-    - url: /img/xcmetrics-icon.png
+    - url: https://github.com/img/xcmetrics-icon.png
       title: Icon
       type: icon
   tags:
@@ -5609,3 +5609,4 @@ spec:
   lifecycle: production
   owner: Vity
 ---
+
