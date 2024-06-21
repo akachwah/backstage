@@ -3,7 +3,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: APIs-with-3scale
+  name: apis-with-3scale
   description: "Synchronize 3scale content into the Backstage catalog."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/3scale.yaml
@@ -31,7 +31,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Architecture-Decision-Records
+  name: architecture-decision-records
   description: "Browse your project's ADRs."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/adr.yaml
@@ -59,7 +59,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: AI-Assistant---RAG-AI
+  name: ai-assistant---rag-ai
   description: "Query LLMs with contextual information from your catalog."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/ai-assistant.yaml
@@ -87,7 +87,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Airbrake
+  name: airbrake
   description: "Access Airbrake error monitoring and other integrations from within Backstage"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/airbrake.yaml
@@ -115,7 +115,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Allure-Reports
+  name: allure-reports
   description: "View Allure reports for your components in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/allure.yaml
@@ -143,7 +143,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Analytics-Module--Google-Analytics
+  name: analytics-module--google-analytics
   description: "Track usage of your Backstage instance using Google Analytics."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/analytics-module-ga.yaml
@@ -171,7 +171,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Analytics-Module--Matomo-Analytics
+  name: analytics-module--matomo-analytics
   description: "Track usage of your Backstage instance using Matomo Analytics."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/analytics-module-matomo.yaml
@@ -199,7 +199,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Analytics-Module--Quantum-Metric
+  name: analytics-module--quantum-metric
   description: "Track usage of your Backstage instance using Quantum Metric."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/analytics-module-qm.yaml
@@ -227,7 +227,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Announcements
+  name: announcements
   description: "Write and share announcements within Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/announcements.yaml
@@ -255,7 +255,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: API-Docs
+  name: api-docs
   description: "Components to discover and display API entities as an extension to the catalog plugin."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/api-docs.yaml
@@ -283,7 +283,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: API-Linter
+  name: api-linter
   description: "API Linter is a quality assurance tool that checks the compliance of API's specifications to Zalando's API rules."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/api-linter.yaml
@@ -311,7 +311,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: API-SDK-Generator
+  name: api-sdk-generator
   description: "Generate SDKs for your REST API to accelerate integration"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/api-sdk-generator.yaml
@@ -339,7 +339,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: API-Spectral-Linter
+  name: api-spectral-linter
   description: "API Spectral Linter is a quality assurance tool that checks the compliance of API's specifications Spectral rule sets."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/api-spectral-linter.yaml
@@ -367,7 +367,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: WSDL---SOAP-viewer
+  name: wsdl---soap-viewer
   description: "An API docs extension to render WSDL / SOAP web services human readable."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/api-wsdl.yaml
@@ -395,7 +395,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Apollo-Explorer
+  name: apollo-explorer
   description: "Integrates Apollo Explorer graphs as a tool to browse GraphQL API endpoints inside Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/apollo-explorer.yaml
@@ -423,7 +423,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Argo-CD
+  name: argo-cd
   description: "View Argo CD status for your projects in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/argo-cd.yaml
@@ -451,7 +451,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Artifacts-Plugin-for-JFrog-Artifactory
+  name: artifacts-plugin-for-jfrog-artifactory
   description: "Connect Backstage entities to software artifacts stored in JFrog Artifactory. Display information about artifacts, such as their version, size, and download links. "
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/artifactory.yaml
@@ -479,7 +479,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Amazon-Elastic-Container-Service
+  name: amazon-elastic-container-service
   description: "View resources related to Amazon Elastic Container Service for your components in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/aws-amazon-ecs.yaml
@@ -507,7 +507,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: OPA-on-AWS
+  name: opa-on-aws
   description: "Orchestrate Platforms and Applications (OPA) allows customers to build and manage AWS Apps & Environments within Backstage"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/aws-app-development.yaml
@@ -535,7 +535,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: AWS-CloudFormation
+  name: aws-cloudformation
   description: "Load Backstage entities from AWS CloudFormation stacks"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/aws-cloudformation.yaml
@@ -563,7 +563,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: AWS-CodeBuild
+  name: aws-codebuild
   description: "View resources related to AWS CodeBuild for your components in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/aws-codebuild.yaml
@@ -591,7 +591,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: AWS-CodePipeline
+  name: aws-codepipeline
   description: "View resources related to AWS CodePipeline for your components in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/aws-codepipeline.yaml
@@ -619,7 +619,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: AWS-Lambda
+  name: aws-lambda
   description: "View AWS Lambda functions for your components in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/aws-lambda.yaml
@@ -647,7 +647,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Azure-Pipelines
+  name: azure-pipelines
   description: "Easily view your Azure Pipelines within the Software Catalog"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/azure-pipelines.yaml
@@ -675,7 +675,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Azure-Resources
+  name: azure-resources
   description: "A plugin showing Azure resource groups and security recommendations in relation to an entity in the catalog."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/azure-resources.yaml
@@ -700,7 +700,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Azure-Sites
+  name: azure-sites
   description: "Azure Sites (Apps & Functions) support for a given entity. View the current status of the site, quickly jump to site's Overview page, or Log Stream page."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/azure-sites.yaml
@@ -725,7 +725,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Azure-Spring-Apps
+  name: azure-spring-apps
   description: "Easily view your Azure Spring Apps service resources"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/azure-spring-apps.yml
@@ -753,7 +753,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Azure-Storage-Explorer
+  name: azure-storage-explorer
   description: "Explore Azure Storage Blobs in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/azure-storage.yaml
@@ -781,7 +781,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Backchat-GenAI
+  name: backchat-genai
   description: "Access your favorite open source GenAI GUIs privately from Backstage. Chat wth large language models in your portal. Choose from hundreds of LLMs. Run inferencing wherever you like - local or remote, CPU or GPU - it's up to you!"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/backchat.yaml
@@ -809,7 +809,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Backstage-Kubernetes
+  name: backstage-kubernetes
   description: "Monitor all your service's deployments at a glance, even across clusters."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/backstage-kubernetes.yaml
@@ -837,7 +837,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Backstage-Search
+  name: backstage-search
   description: "A composable and extensible search platform built to fit your organization’s needs and find information quickly."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/backstage-search-platform.yaml
@@ -865,7 +865,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Backstage-Software-Catalog
+  name: backstage-software-catalog
   description: "Manage all your services and software components, all in one place."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/backstage-software-catalog.yaml
@@ -893,7 +893,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Backstage-Software-Templates
+  name: backstage-software-templates
   description: "Create new software components in just a few steps, with your standards built-in (Scaffolder)."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/backstage-software-templates.yaml
@@ -921,7 +921,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Backstage-TechDocs
+  name: backstage-techdocs
   description: "A docs-like-code solution to technical documentation. Write your docs right alongside your code."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/backstage-techdocs.yaml
@@ -949,7 +949,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Badges
+  name: badges
   description: "The badges plugin offers a set of badges that can be used outside of Backstage, showing information related to data from the catalog."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/badges.yaml
@@ -977,7 +977,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Bazaar
+  name: bazaar
   description: "A marketplace where engineers can propose projects suitable for inner sourcing"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/bazaar.yaml
@@ -1005,7 +1005,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Betterscan
+  name: betterscan
   description: "View security scanned vulnerabilities in Code and Cloud scanned using Open Source and proprietary scanners directly in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/betterscan.yaml
@@ -1033,7 +1033,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Bitrise
+  name: bitrise
   description: "View Bitrise builds and download the build artifacts within Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/bitrise.yaml
@@ -1061,7 +1061,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: BlackDuck
+  name: blackduck
   description: "BlackDuck scanned vulnerabilities in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/blackduck.yaml
@@ -1089,7 +1089,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Blockchain-Radar
+  name: blockchain-radar
   description: "Discover and manage contracts, multisigs and their access control policies on various blockchains."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/blockchain-radar.yaml
@@ -1117,7 +1117,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Bugsnag
+  name: bugsnag
   description: "View and monitor Bugsnag errors."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/bugsnag.yaml
@@ -1145,7 +1145,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Buildkite
+  name: buildkite
   description: "View Buildkite CI builds for your service in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/buildkite.yaml
@@ -1173,7 +1173,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Bulletin-Board
+  name: bulletin-board
   description: "Share interesting ideas, news and links with your teammates within Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/bulletin-board.yaml
@@ -1201,7 +1201,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: PuppetDB-Entity-Provider
+  name: puppetdb-entity-provider
   description: "Import nodes from PuppetDB into Backstage as Resource Entities"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/catalog-backend-module-puppetdb.yaml
@@ -1229,7 +1229,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Catalog-Graph
+  name: catalog-graph
   description: "Extend the Backstage Software Catalog with a graph that shows all entities and their relationships providing an easier way to discover the ecosystem."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/catalog-graph.yaml
@@ -1257,7 +1257,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Changelog-viewer
+  name: changelog-viewer
   description: "View changelogs for your components in Backstage. Built-in support of 'Keep the changelog' and 'Semver' formats."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/changelog.yaml
@@ -1285,7 +1285,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ChatGPT-Playground
+  name: chatgpt-playground
   description: "Experiment with the OpenAI playground to help you develop more efficiently"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/chatgpt-playground.yaml
@@ -1313,7 +1313,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: CI-CD-Statistics
+  name: ci-cd-statistics
   description: "Visualize CI/CD pipeline statistics such as build time or success and error rates."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/cicd-statistics.yaml
@@ -1341,7 +1341,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: CircleCI
+  name: circleci
   description: "Automate your development process with CI hosted in the cloud or on a private server."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/circleci.yaml
@@ -1369,7 +1369,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Google-Cloud-Build
+  name: google-cloud-build
   description: "Build, test, and deploy on Google's serverless CI/CD platform."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/cloud-build.yaml
@@ -1397,7 +1397,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Cloud-Carbon-Footprint
+  name: cloud-carbon-footprint
   description: "View your cloud carbon footprint by estimating energy use (kilowatt-hours) and carbon emissions (metric tons CO2e) from public cloud usage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/cloud-carbon-footprint.yaml
@@ -1425,7 +1425,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Cloudify
+  name: cloudify
   description: "Cloudify provides a remote execution and environment management backend for Kubernetes, Terraform, Ansible, etc."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/cloudify.yaml
@@ -1453,7 +1453,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Cloudsmith
+  name: cloudsmith
   description: "Show Cloudsmith Repository stats, Quota, Audit logs and Security scans for specific repositories."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/cloudsmith.yaml
@@ -1481,7 +1481,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Codacy-Repo-Adder
+  name: codacy-repo-adder
   description: "A Template Action to automatically add a Repository to Codacy"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/codacy-repo-adder.yaml
@@ -1509,7 +1509,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Coder
+  name: coder
   description: "Create and manage Coder workspaces from Backstage!"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/coder.yaml
@@ -1537,7 +1537,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: CodeScene
+  name: codescene
   description: "CodeScene is a multi-purpose tool bridging code, business and people. See hidden risks and social patterns in your code. Prioritize and reduce technical debt."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/codescene.yaml
@@ -1565,7 +1565,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Cortex-Service-Quality-Scorecards
+  name: cortex-service-quality-scorecards
   description: "Grade the quality of your Backstage services using Scorecards. Automate production readiness, migrations, security audits, and more with CQL (Cortex Query Language)."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/cortex.yaml
@@ -1593,7 +1593,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Cost-Insights
+  name: cost-insights
   description: "Visualize, understand and optimize your team's cloud costs."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/cost-insights.yaml
@@ -1621,7 +1621,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Datadog
+  name: datadog
   description: "Embed Datadog graphs and dashboards in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/datadog.yaml
@@ -1649,7 +1649,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: dbt-Docs
+  name: dbt-docs
   description: "View dbt models and tests documentation."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dbt.yaml
@@ -1674,7 +1674,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Dependencytrack
+  name: dependencytrack
   description: "Plugin for extracting metrics and findings from OWASP's Dependencytrack"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dependencytrack.yaml
@@ -1702,7 +1702,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Dev-Friends-Days
+  name: dev-friends-days
   description: "Be informed if there is a Programmer, Tester or SysAdmin day today so you will know when to celebrate that special day with your team!"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dev-friends-day.yaml
@@ -1730,7 +1730,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Dev-Quotes
+  name: dev-quotes
   description: "Displays a coding/progamming related quote designed as a footer for the Homepage, although to be honest it can be used anywhere you like!"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dev-quotes.yaml
@@ -1758,7 +1758,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Dev-Containers
+  name: dev-containers
   description: "Automatically launch fully-contained dev environments with Dev Containers, right from Backstage!"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/devcontainers.yaml
@@ -1786,7 +1786,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: DevTools
+  name: devtools
   description: "Tools for helping with the Ops side of running a Backstage instance"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/devtools.yaml
@@ -1814,7 +1814,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Digital.ai-Deploy
+  name: digital.ai-deploy
   description: "The plugin offers integration with Digital.ai Deploy and backstage components and services. It provide access to deployments and reports."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/digital.ai-deploy.yaml
@@ -1842,7 +1842,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Digital.ai-Release
+  name: digital.ai-release
   description: "The plugin offers integration with Digital.ai Release and backstage. It provide access to active releases, templates and manage workflow executions."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/digital.ai-release.yaml
@@ -1870,7 +1870,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Docker-tags
+  name: docker-tags
   description: "Creates a list of docker tags based on hub.docker.com"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/docker-tags.yaml
@@ -1898,7 +1898,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: DORA-Metrics
+  name: dora-metrics
   description: "Embed dashboards (like DORA metrics) in your team or service pages from any dev tools (including Github, Gitlab, Jira, Argo, CircleCI, Buildkite, Pagerduty, Rollbar, Sentry, etc)."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dora-metrics.yaml
@@ -1926,7 +1926,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: DX
+  name: dx
   description: "DX Plugin for syncing Backstage data to DX and adding DX reports to Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dx.yaml
@@ -1954,7 +1954,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Dynatrace-for-Managed
+  name: dynatrace-for-managed
   description: "View problem and synthetic information for services in your software catalog."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dynatrace-managed.yaml
@@ -1982,7 +1982,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Dynatrace
+  name: dynatrace
   description: "Provide customizable context-rich observability and security insights for services in your software catalog."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/dynatrace.yaml
@@ -2010,7 +2010,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: End-of-life
+  name: end-of-life
   description: "Display end of life data for entities from endoflife.data"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/end-of-life.yaml
@@ -2038,7 +2038,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Entity-Feedback
+  name: entity-feedback
   description: "Give and view feedback on entities available in the Backstage catalog."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/entity-feedback.yaml
@@ -2066,7 +2066,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Entity-Validation
+  name: entity-validation
   description: "Interface for validating entities."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/entity-validation.yaml
@@ -2094,7 +2094,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Feedback
+  name: feedback
   description: "A plugin for collecting user feedbacks for your application."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/feedback.yaml
@@ -2122,7 +2122,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Festive-Fun
+  name: festive-fun
   description: "Festive, seasonal, animations to spice up your instance of Backstage!"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/festive-fun.yaml
@@ -2150,7 +2150,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Firebase-Functions
+  name: firebase-functions
   description: "View Firebase Functions details for your service in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/firebase-functions.yaml
@@ -2178,7 +2178,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: FireHydrant
+  name: firehydrant
   description: "View service incidents information from FireHydrant, such as active incidents and incident metrics, directly within Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/firehydrant.yaml
@@ -2206,7 +2206,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Flux-Plugins
+  name: flux-plugins
   description: "View the status of fluxcd.io resources"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/flux.yaml
@@ -2234,7 +2234,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: FOSSA
+  name: fossa
   description: "View FOSSA license compliance of your components in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/fossa.yaml
@@ -2262,7 +2262,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GCP-Project-Creator
+  name: gcp-project-creator
   description: "Create, list and manage your Google Cloud Projects."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/gcp-projects.yaml
@@ -2290,7 +2290,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GitHub-Release-Manager
+  name: github-release-manager
   description: "Manage releases without having to juggle git commands."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/git-release-manager.yaml
@@ -2318,7 +2318,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GitHub-Actions
+  name: github-actions
   description: "GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/github-actions.yaml
@@ -2346,7 +2346,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GitHub-Codespaces
+  name: github-codespaces
   description: "Integrates GitHub Codespaces for a Backstage component with the Authenticated User."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/github-codespaces.yaml
@@ -2374,7 +2374,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GitHub-Insights
+  name: github-insights
   description: "View GitHub Insights for your components in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/github-insights.yaml
@@ -2402,7 +2402,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GitHub-Pull-Requests-Board
+  name: github-pull-requests-board
   description: "View all open GitHub pull requests owned by your team in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/github-pull-requests-board.yaml
@@ -2430,7 +2430,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GitHub-Pull-Requests
+  name: github-pull-requests
   description: "View GitHub pull requests for your service in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/github-pull-requests.yaml
@@ -2458,7 +2458,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: VeeCode-GitHub-Workflows
+  name: veecode-github-workflows
   description: "The Github Workflows plugin provides an alternative for manually triggering GitHub workflows from within your Backstage component."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/github-workflows.yaml
@@ -2486,7 +2486,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: VeeCode-Gitlab-Pipelines
+  name: veecode-gitlab-pipelines
   description: "The Gitlab pipelines plugin integrates GitlabCi with its backstage component in a simple way."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/gitlab-pipelines.yaml
@@ -2514,7 +2514,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GitLab
+  name: gitlab
   description: "View GitLab pipelines, merge requests, languages and contributors."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/gitlab.yaml
@@ -2542,7 +2542,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GitOps-Clusters
+  name: gitops-clusters
   description: "Create GitOps-managed Kubernetes clusters. Currently, it supports provisioning EKS clusters on GitHub via GitHub Actions."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/gitops-cluster.yaml
@@ -2570,7 +2570,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GoCD
+  name: gocd
   description: "GoCD is an open-source tool which is used in software development to help teams and organizations automate the continuous delivery of software."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/gocd.yaml
@@ -2598,7 +2598,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Grafana
+  name: grafana
   description: "Associate alerts and dashboards to components."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/grafana.yaml
@@ -2626,7 +2626,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GraphiQL
+  name: graphiql
   description: "Integrates GraphiQL as a tool to browse GraphQL API endpoints inside Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/graphiql.yaml
@@ -2654,7 +2654,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GraphQL-Catalog
+  name: graphql-catalog
   description: "Adds the GraphQL Endpoint to Backstage Catalog as a plugin."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/graphql-catalog.yaml
@@ -2682,7 +2682,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GraphQL-Voyager
+  name: graphql-voyager
   description: "Integrates the GraphQL Voyager tool inside Backstage as a plugin."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/graphql-voyager.yaml
@@ -2710,7 +2710,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GRPC-Playground
+  name: grpc-playground
   description: "Easily view and test your gRPC API with a GUI Client, inspired from BloomRPC application."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/grpc-playground.yaml
@@ -2738,7 +2738,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Harbor
+  name: harbor
   description: "This plugin will show you information about Docker images within the Harbor cloud native registry."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/harbor.yaml
@@ -2766,7 +2766,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Harness-CI-CD
+  name: harness-ci-cd
   description: "This plugin lets you view Harness pipeline execution details inside Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/harness-ci-cd.yaml
@@ -2794,7 +2794,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Harness-Feature-Flags
+  name: harness-feature-flags
   description: "This plugin lets you view Harness Feature Flags created in your project inside Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/harness-feature-flags.yaml
@@ -2822,7 +2822,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Harness-Service-Reliability-Management
+  name: harness-service-reliability-management
   description: "This plugin tracks the defined SLOs and Error Budgets for your Monitored services in Harness SRM Module."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/harness-srm.yaml
@@ -2850,7 +2850,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: HCP-Consul
+  name: hcp-consul
   description: "View your HCP Consul clusters, services, instances in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/hcp-consul.yaml
@@ -2878,7 +2878,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Highlights
+  name: highlights
   description: "Highlight what is important for you and put it on front for the quick view and access. Built-in support of Git information from GitHub and GitLab."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/highlights.yaml
@@ -2906,7 +2906,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Home
+  name: home
   description: "This plugin provides a composable home page, and ability to create home page components"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/home.yaml
@@ -2934,7 +2934,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Hoop
+  name: hoop
   description: "hoop.dev is a cloud-native ssh implementation that lets you edit connections contents live."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/hoop.yaml
@@ -2962,7 +2962,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Humanitec-Platform-Orchestrator
+  name: humanitec-platform-orchestrator
   description: "Show workloads, environments and resources deployed by Humanitec Platform Orchestrator. Plugin includes an Entity ComponentCard, Backend API route and scaffolder actions. "
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/humanitec.yaml
@@ -2990,7 +2990,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: IBM-APIC-EntityProvider
+  name: ibm-apic-entityprovider
   description: "Bring IBM APIC to Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/ibm-apic-backend.yaml
@@ -3018,7 +3018,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: iLert
+  name: ilert
   description: "iLert is a platform for alerting, on-call management and uptime monitoring targeted at DevOps and IT teams."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/ilert.yaml
@@ -3046,7 +3046,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: InfraWallet
+  name: infrawallet
   description: "Control your cloud costs just in the way how you control your bank accounts."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/infrawallet.yaml
@@ -3074,7 +3074,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Jenkins
+  name: jenkins
   description: "Jenkins offers a simple way to set up a continuous integration and continuous delivery environment."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/jenkins.yaml
@@ -3102,7 +3102,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: JFrog-Artifactory-Libs-plugin
+  name: jfrog-artifactory-libs-plugin
   description: "frontend plugin provides a simple way to display generated artifact (library) details like - group, artifact, repository, what is the latest version, and it simply allows to copy library definition for the package managers."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/jfrog-artifactory-libs.yaml
@@ -3130,7 +3130,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Container-Image-Registry-for-JFrog-Artifactory
+  name: container-image-registry-for-jfrog-artifactory
   description: "View container image details from JFrog Artifactory in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/jfrog-artifactory.yaml
@@ -3158,7 +3158,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Jira-Dashboard
+  name: jira-dashboard
   description: "Allows you to fetch and display Jira issues for your entity. You get quickly access to issue summaries to achieve better task visibility and more efficient project management."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/jira-dashboard.yaml
@@ -3186,7 +3186,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Jira
+  name: jira
   description: "View Jira summary for your projects in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/jira.yaml
@@ -3242,7 +3242,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Kafka
+  name: kafka
   description: "Observability for Apache Kafka clusters and async API of components."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/kafka.yaml
@@ -3270,7 +3270,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Authentication-and-Authorization-with-Keycloak
+  name: authentication-and-authorization-with-keycloak
   description: "Load users and groups from Keycloak, enabling use of multiple authentication providers to be applied to Backstage entities."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/keycloak.yaml
@@ -3298,7 +3298,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Kiali-Service-Mesh
+  name: kiali-service-mesh
   description: "Configure, visualize, validate and troubleshoot your mesh with Istio"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/kiali.yaml
@@ -3326,7 +3326,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: VeeCode-Kong-Service-Manager
+  name: veecode-kong-service-manager
   description: "The Kong Service Manager plugin provides information about the kong service, a list of the routes it has and also offers the possibility of manipulating plugins without leaving the backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/kong-service-manager.yaml
@@ -3354,7 +3354,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Configuration-as-Data
+  name: configuration-as-data
   description: "Configuration GUI over GitOps using kpt, with WYSIWYG editing, review and approval, versioning and undo, and package cloning and upgrades."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/kpt-config-as-data.yaml
@@ -3382,7 +3382,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Kubecost
+  name: kubecost
   description: "Get cost insights from Kubecost Installation for your k8s deployments"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/kubecost.yaml
@@ -3410,7 +3410,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Kubernetes-Entity-Provider
+  name: kubernetes-entity-provider
   description: "Import Kubernetes resources into Backstage Components"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/kubernetes-provider.yaml
@@ -3438,7 +3438,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: KubeVela
+  name: kubevela
   description: "KubeVela is a modern software delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/kubevela.yaml
@@ -3466,7 +3466,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: LDAP-Auth
+  name: ldap-auth
   description: "Authenticate users to an external LDAP server"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/ldap-auth.yml
@@ -3494,7 +3494,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Library-Check
+  name: library-check
   description: "Check the status of project package or library based on main registries"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/library-check.yaml
@@ -3522,7 +3522,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Lighthouse
+  name: lighthouse
   description: "Google's Lighthouse tool is a great resource for benchmarking and improving the accessibility, performance, SEO, and best practices of your website."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/lighthouse.yaml
@@ -3550,7 +3550,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Linguist
+  name: linguist
   description: "View the programming language break down for your entities within the Software Catalog"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/linguist.yaml
@@ -3578,7 +3578,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Litmus
+  name: litmus
   description: "This plugin lets you view the status of Litmus resources and launch Chaos Experiments directly inside Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/litmus.yaml
@@ -3606,7 +3606,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Mia-Platform-Sync
+  name: mia-platform-sync
   description: "Elevate your workflow with our plugin that seamlessly integrates your Mia-Platform components into Backstage. Keep your information synchronized effortlessly and gain insights into your company's domains, projects, deployment environments, and repository links, all while exploring their interrelations."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/mia-platform.yaml
@@ -3634,7 +3634,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Microcks
+  name: microcks
   description: "Import API definitions (OpenAPI, AsyncAPI, gRPC) from Microcks instances, linking to their mock endpoints and test results."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/microcks.yaml
@@ -3662,7 +3662,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Microsoft-Calendar
+  name: microsoft-calendar
   description: "The plugin integrates with your Microsoft Calendar. It displays all your calendars and events in it. "
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/microsoft-calendar.yaml
@@ -3687,7 +3687,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Microsoft-Forms
+  name: microsoft-forms
   description: "Embed a form into the entity page with ease!"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/microsoft-forms.yaml
@@ -3715,7 +3715,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: New-Relic
+  name: new-relic
   description: "Observability platform built to help engineers create and monitor their software."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/new-relic.yaml
@@ -3743,7 +3743,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: New-Relic-Dashboard
+  name: new-relic-dashboard
   description: "Easily view your New Relic Dashboards in Backstage, via real-time snapshots of your dashboards"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/newrelic-dashboard.yaml
@@ -3771,7 +3771,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Nexus-Repository-Manager
+  name: nexus-repository-manager
   description: "View information about the build artifacts in your Nexus Repository Manager in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/nexus-repository-manager.yaml
@@ -3799,7 +3799,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Nobl9
+  name: nobl9
   description: "View and drill down into the reliability of your services via Nobl9 SLOs and error budgets."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/nobl9.yaml
@@ -3827,7 +3827,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Multi-Cluster-View-with-OCM
+  name: multi-cluster-view-with-ocm
   description: "View clusters from OCM's MultiClusterHub and MultiCluster Engine in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/ocm.yaml
@@ -3855,7 +3855,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Octopus-Deploy
+  name: octopus-deploy
   description: "Easily view your Octopus Deploy releases within the Software Catalog"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/octopus-deploy.yaml
@@ -3883,7 +3883,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Okta-Organization-Entity-Provider
+  name: okta-organization-entity-provider
   description: "Load users and groups from Okta into the Backstage catalog."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/okta-entity-providers.yaml
@@ -3911,7 +3911,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: OPA-Permissions-Wrapper
+  name: opa-permissions-wrapper
   description: "Manage your Backstage permissions with OPA (Open Policy Agent)!"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/opa-permissions-wrapper.yaml
@@ -3939,7 +3939,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: OpenDORA
+  name: opendora
   description: "View DORA metrics within Backstage using DevLake."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/open-dora.yaml
@@ -3967,7 +3967,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: OpenCost
+  name: opencost
   description: "OpenCost provides cloud cost monitoring for your cloud native environments."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/opencost.yaml
@@ -3995,7 +3995,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Opsgenie
+  name: opsgenie
   description: "Opsgenie offers a simple way to associate alerts to components and visualize incidents."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/opsgenie.yaml
@@ -4023,7 +4023,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Service-Maturity
+  name: service-maturity
   description: "Integrate with OpsLevel to track performance against your engineering best practices and service maturity."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/opslevel-maturity.yaml
@@ -4051,7 +4051,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Ozone
+  name: ozone
   description: "View pipeline runs, builds from your Ozone account. "
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/ozone.yaml
@@ -4079,7 +4079,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: PagerDuty
+  name: pagerduty
   description: "Bring the power of PagerDuty to Backstage, reduce cognitive load, improve service visibility and enforce incident management best practices."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/pager-duty.yaml
@@ -4107,7 +4107,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Periskop
+  name: periskop
   description: "Periskop is a pull-based, language agnostic exception aggregator for microservice environments."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/periskop.yaml
@@ -4135,7 +4135,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Playlist
+  name: playlist
   description: "Create, share, and follow custom collections of entities available in the Backstage catalog."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/playlist.yaml
@@ -4163,7 +4163,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Prometheus
+  name: prometheus
   description: "Prometheus plugin provides visualization of Prometheus metrics and alerts"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/prometheus.yaml
@@ -4191,7 +4191,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Pulumi
+  name: pulumi
   description: "Use Pulumi scaffolder actions and view Pulumi stack information in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/pulumi.yaml
@@ -4219,7 +4219,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: PuppetDB
+  name: puppetdb
   description: "Visualize resource information and Puppet facts from PuppetDB."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/puppetdb.yaml
@@ -4247,7 +4247,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Q-A
+  name: q-a
   description: "Ask and answer questions within Backstage"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/qeta.yaml
@@ -4275,7 +4275,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Container-Image-Registry-for-Quay
+  name: container-image-registry-for-quay
   description: "View container image details from Quay in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/quay.yaml
@@ -4303,7 +4303,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Rafay-Kubernetes-Operations-Platform
+  name: rafay-kubernetes-operations-platform
   description: "Deploy and view clusters, namespaces, workloads and more using Rafay plugin"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/rafay.yaml
@@ -4331,7 +4331,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Readme
+  name: readme
   description: "The Readme-plugin enables easy access and viewing of the README.md file in your entity overview."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/readme.yaml
@@ -4359,7 +4359,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Revision
+  name: revision
   description: "Access Revision architecture diagrams from within Backstage"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/revision.yaml
@@ -4387,7 +4387,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Rollbar
+  name: rollbar
   description: "View Rollbar errors for your services in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/rollbar.yaml
@@ -4415,7 +4415,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Rootly
+  name: rootly
   description: "Import your Backstage entities into Rootly services and view incidents & analytics."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/rootly.yaml
@@ -4443,7 +4443,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: S3-Viewer
+  name: s3-viewer
   description: "Visualization of S3 buckets and their contents in file explorer style."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/s3-viewer.yaml
@@ -4471,7 +4471,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Scaffolder-.NET-Actions
+  name: scaffolder-.net-actions
   description: "Here you can find all .NET related actions to improve your scaffolder."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-dotnet.yaml
@@ -4499,7 +4499,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Scaffolder-Git-Actions
+  name: scaffolder-git-actions
   description: "Easily run git CLI commands from your scaffolder actions"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-git.yaml
@@ -4527,7 +4527,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Scaffolder-Backend-Module-Rails
+  name: scaffolder-backend-module-rails
   description: "Here you can find all Rails related features to improve your scaffolder."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-module-rails.yaml
@@ -4555,7 +4555,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Microsoft-Teams-Scaffolder-Actions
+  name: microsoft-teams-scaffolder-actions
   description: "Interact with Microsoft Teams from Scaffolder templates"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-ms-teams.yaml
@@ -4580,7 +4580,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Scaffolder-odo-CLI-actions
+  name: scaffolder-odo-cli-actions
   description: "Collection of actions to run odo CLI commands. odo is a developer-focused CLI for container-based application development on Podman and Kubernetes."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-odo.yaml
@@ -4608,7 +4608,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Scaffolder-AWS-CLI-actions
+  name: scaffolder-aws-cli-actions
   description: "Scaffolder actions you can trigger for Amazon Web Services."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-roadie-aws.yaml
@@ -4636,7 +4636,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Scaffolder-HTTP-request-action
+  name: scaffolder-http-request-action
   description: "An action to fire an arbitrary HTTP request"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-roadie-http-request.yaml
@@ -4664,7 +4664,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Scaffolder-utility-actions
+  name: scaffolder-utility-actions
   description: "A collection of utility actions including sleep, zip and file manipulation."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-roadie-utils.yaml
@@ -4692,7 +4692,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Slack-Scaffolder-Actions
+  name: slack-scaffolder-actions
   description: "Interact with Slack from scaffolder templates"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-backend-slack.yaml
@@ -4720,7 +4720,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Devfile-Selector-Field-Extension
+  name: devfile-selector-field-extension
   description: "Devfile Selector Field Extension to use in your Software Templates. Devfile is an open standard defining containerized development environments."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/scaffolder-frontend-devfile-field.yaml
@@ -4748,7 +4748,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: System-scoring
+  name: system-scoring
   description: "Visualization of maturity (and improving it) of services/systems thanks to a review process."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/score-card.yaml
@@ -4776,7 +4776,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Azure-DevOps-Wiki-Search
+  name: azure-devops-wiki-search
   description: "Index wiki articles from an Azure DevOps wiki into Backstage to allow you to search them with the Backstage Search feature."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/search-backend-module-azure-devops-wiki.yaml
@@ -4804,7 +4804,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Search-extension-for-Azure-Cognitive-Search
+  name: search-extension-for-azure-cognitive-search
   description: "Search extension plugin to create backstage search indexes into Azure Cognitive Search."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/search-backend-module-cognitive-search.yaml
@@ -4829,7 +4829,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Security-Insights
+  name: security-insights
   description: "View Security Insights for your components in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/security-insights.yaml
@@ -4857,7 +4857,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Sentry
+  name: sentry
   description: "View Sentry issues in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/sentry.yaml
@@ -4885,7 +4885,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Shortcuts
+  name: shortcuts
   description: "The shortcuts plugin allows a user to have easy access to pages within a Backstage app by storing them as 'shortcuts' in the Sidebar."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/shortcuts.yaml
@@ -4913,7 +4913,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Should-I-Deploy-Today-
+  name: should-i-deploy-today-
   description: "Can I deploy this plugin if it's Friday? Oh, hell no!!!"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/should-i-deploy.yaml
@@ -4941,7 +4941,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Snyk
+  name: snyk
   description: "View Snyk scanned vulnerabilities and license compliance of your components directly in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/snyk-security.yaml
@@ -4969,7 +4969,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Solo.io-Gloo-Platform-Portal
+  name: solo.io-gloo-platform-portal
   description: "View, test, and manage your Gloo Platform Portal APIs through our Backstage plugin."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/solo-io-gloo-platform-portal.yaml
@@ -4997,7 +4997,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: SonarQube
+  name: sonarqube
   description: "Components to display code quality metrics from SonarCloud and SonarQube."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/sonarqube.yaml
@@ -5025,7 +5025,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Splunk-On-Call
+  name: splunk-on-call
   description: "Splunk On-Call offers a simple way to identify incidents and escalation policies."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/splunk-on-call.yaml
@@ -5053,7 +5053,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Stack-Overflow
+  name: stack-overflow
   description: "Provides Stack Overflow specific functionality that can be used in different ways (e.g. for homepage and search) to compose your Backstage App."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/stack-overflow.yaml
@@ -5081,7 +5081,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: StackStorm
+  name: stackstorm
   description: "Manage StackStorm workflow executions from within Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/stackstorm.yaml
@@ -5109,7 +5109,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Statusneo-GitHub-Plugin
+  name: statusneo-github-plugin
   description: "Provides status cards GitHub pull requests and GitHub actions."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/statusneo-github-plugin.yaml
@@ -5137,7 +5137,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Statuspage.io-Plugin
+  name: statuspage.io-plugin
   description: "The Statuspage plugin allows you to embedd https://statuspage.io components, component groups and dashboards in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/statuspage.yaml
@@ -5165,7 +5165,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Sysdig
+  name: sysdig
   description: "Generate security reports using Sysdig Secure"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/sysdig.yaml
@@ -5193,7 +5193,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Tech-Insights
+  name: tech-insights
   description: "Visualize, understand and optimize your team's tech health."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/tech-insights.yaml
@@ -5221,7 +5221,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Tech-Radar
+  name: tech-radar
   description: "Visualize the your company's official guidelines of different areas of software development."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/tech-radar.yaml
@@ -5249,7 +5249,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Tekton-Pipelines
+  name: tekton-pipelines
   description: "View the status of the Tekton PipelineRun resources."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/tekton-pipelines.yaml
@@ -5277,7 +5277,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Pipelines-with-Tekton
+  name: pipelines-with-tekton
   description: "Easily view Tekton PipelineRun status for your services in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/tekton.yaml
@@ -5305,7 +5305,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: TimeSaver
+  name: timesaver
   description: "Visualise your time saved using Backstage Scaffolder templates"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/time-saver.yaml
@@ -5333,7 +5333,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Tips
+  name: tips
   description: "The tips plugin will show the end user some helpful information for entities."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/tips.yaml
@@ -5361,7 +5361,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: TODO
+  name: todo
   description: "Browse TODO comments in your project's source code."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/todo.yaml
@@ -5389,7 +5389,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Toolbox
+  name: toolbox
   description: "Development related tools within Backstage"
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/toolbox.yaml
@@ -5417,7 +5417,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Application-Topology-for-Kubernetes
+  name: application-topology-for-kubernetes
   description: "Visualize the deployment status and related resources of your applications deployed on any Kubernetes cluster."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/topology.yaml
@@ -5445,7 +5445,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Torque
+  name: torque
   description: "Deploy the environments you need to keep building, testing and delivering incredible code.  Plugin includes an Entity ComponentCard, Backend API route and scaffolder actions. "
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/torque.yaml
@@ -5473,7 +5473,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Travis-CI
+  name: travis-ci
   description: "View Travis CI builds for your service in Backstage."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/travis-ci.yaml
@@ -5501,7 +5501,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Umami-Analytics
+  name: umami-analytics
   description: "Track usage of your Backstage instance using Umami Analytics."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/umami.yaml
@@ -5529,7 +5529,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Vault
+  name: vault
   description: "Visualize a list of the secrets stored in your HashiCorp Vault instance."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/vault.yaml
@@ -5557,7 +5557,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: XCMetrics
+  name: xcmetrics
   description: "Discover valuable insights hiding inside Xcode’s build logs."
   links:
     - url: https://github.com/backstage/backstage/blob/master/microsite/data/plugins/xcmetrics.yaml
