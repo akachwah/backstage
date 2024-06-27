@@ -1,0 +1,203 @@
+#  COMPONENTS
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: argocd-template
+  title: Add ArgoCD to an existing project
+  description: "Add ArgoCD to an existing project"
+  tags:
+  - recommended
+  - argocd
+spec:
+    owner: janus-authors
+    system: janus-idp
+    type: service
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-system-template
+  title: Create a Backstage System entity
+  description: "Create a Backstage System entity"
+  tags:
+  - backstage
+  - system
+spec:
+    owner: janus-authors
+    system: janus-idp
+    type: service
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: define-ansible-job-template
+  title: Ansible Job Template
+  description: "Define an Ansible Job Template within Ansible Automation Platform"
+  tags:
+  - recommended
+  - aap
+spec:
+    owner: janus-authors
+    system: janus-idp
+    type: service
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: go-backend-template
+  title: Create a Go Backend application with a CI pipeline
+  description: "Create a starter Go backend application with a CI pipeline"
+  tags:
+  - recommended
+  - go
+spec:
+    owner: janus-authors
+    system: janus-idp
+    type: service
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: launch-ansible-job-template
+  title: Ansible Job
+  description: "Launch an Ansible Job within Ansible Automation Platform"
+  tags:
+  - recommended
+  - aap
+spec:
+    owner: janus-authors
+    system: janus-idp
+    type: service
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nodejs-backend-template
+  title: Create a Node.js Backend application with a CI pipeline
+  description: "Create a starter Node.js backend application with a CI pipeline"
+  tags:
+  - recommended
+  - nodejs
+  - javascript
+  - typescript
+  - express
+spec:
+    owner: janus-authors
+    system: janus-idp
+    type: service
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: obc-template
+  title: Add OBC to an existing project
+  description: "Add OBC to an existing project"
+  tags:
+  - obc
+spec:
+    owner: janus-authors
+    system: janus-idp
+    type: service
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: quarkus-backend-template
+  title: Create a Quarkus Backend application with a CI pipeline
+  description: "Create a starter Quarkus Backend application with a CI pipeline"
+  tags:
+  - quarkus
+  - java
+  - maven
+spec:
+    owner: janus-authors
+    system: janus-idp
+    type: service
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: register-component
+  title: Register existing component to Software Catalog
+  description: "Registers existing component (GitHub repository) to Software Catalog"
+  tags:
+  - import
+  - catalog
+  - register
+spec:
+    owner: janus-authors
+    system: janus-idp
+    type: service
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sdlc-app-template
+  title: Application Template
+  description: "An application is a set of components that will run together in the same SDLC environments"
+  tags:
+  - application
+spec:
+    owner: service@example.com
+    system: unknown
+    type: system
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-boot-backend-template
+  title: Create a Spring Boot Backend application with a CI pipeline
+  description: "Create a starter Spring Boot backend application with a CI pipeline"
+  tags:
+  - recommended
+  - spring-boot
+  - java
+  - maven
+spec:
+    owner: janus-authors
+    system: janus-idp
+    type: service
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: techdocs-template
+  title: Create a techdocs sample
+  description: "Create a techdocs sample"
+  tags:
+  - documentation
+  - techdocs
+spec:
+    owner: janus-authors
+    system: janus-idp
+    type: service
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tekton-template
+  title: Create a tekton CI Pipeline
+  description: "Create a tekton CI Pipeline"
+  tags:
+  - ci
+  - tekton
+spec:
+    owner: janus-authors
+    system: janus-idp
+    type: service
+---
+
