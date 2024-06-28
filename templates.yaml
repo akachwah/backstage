@@ -1,203 +1,202 @@
 #  COMPONENTS
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: argocd-template
-  title: Add ArgoCD to an existing project
   description: "Add ArgoCD to an existing project"
+  links:
+    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/argocd/template.yaml
   tags:
-  - recommended
-  - argocd
+    - recommended
+    - argocd
 spec:
-    owner: janus-authors
-    system: janus-idp
-    type: service
+  owner: janus-authors
+  system: janus-idp
+  type: service
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-system-template
-  title: Create a Backstage System entity
   description: "Create a Backstage System entity"
+  links:
+    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/backstage-system/template.yaml
   tags:
-  - backstage
-  - system
+    - backstage
+    - system
 spec:
-    owner: janus-authors
-    system: janus-idp
-    type: service
+  owner: janus-authors
+  system: janus-idp
+  type: service
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: define-ansible-job-template
-  title: Ansible Job Template
   description: "Define an Ansible Job Template within Ansible Automation Platform"
+  links:
+    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/define-ansible-job/template.yaml
   tags:
-  - recommended
-  - aap
+    - recommended
+    - aap
 spec:
-    owner: janus-authors
-    system: janus-idp
-    type: service
+  owner: janus-authors
+  system: janus-idp
+  type: service
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: go-backend-template
-  title: Create a Go Backend application with a CI pipeline
   description: "Create a starter Go backend application with a CI pipeline"
+  links:
+    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/go-backend/template.yaml
   tags:
-  - recommended
-  - go
+    - recommended
+    - go
 spec:
-    owner: janus-authors
-    system: janus-idp
-    type: service
+  owner: janus-authors
+  system: janus-idp
+  type: service
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: launch-ansible-job-template
-  title: Ansible Job
   description: "Launch an Ansible Job within Ansible Automation Platform"
+  links:
+    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/launch-ansible-job/template.yaml
   tags:
-  - recommended
-  - aap
+    - recommended
+    - aap
 spec:
-    owner: janus-authors
-    system: janus-idp
-    type: service
+  owner: janus-authors
+  system: janus-idp
+  type: service
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: nodejs-backend-template
-  title: Create a Node.js Backend application with a CI pipeline
   description: "Create a starter Node.js backend application with a CI pipeline"
+  links:
+    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/nodejs-backend/template.yaml
   tags:
-  - recommended
-  - nodejs
-  - javascript
-  - typescript
-  - express
+    - recommended
+    - nodejs
+    - javascript
+    - typescript
+    - express
 spec:
-    owner: janus-authors
-    system: janus-idp
-    type: service
+  owner: janus-authors
+  system: janus-idp
+  type: service
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: obc-template
-  title: Add OBC to an existing project
   description: "Add OBC to an existing project"
+  links:
+    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/obc/template.yaml
   tags:
-  - obc
+    - obc
 spec:
-    owner: janus-authors
-    system: janus-idp
-    type: service
+  owner: janus-authors
+  system: janus-idp
+  type: service
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: quarkus-backend-template
-  title: Create a Quarkus Backend application with a CI pipeline
   description: "Create a starter Quarkus Backend application with a CI pipeline"
+  links:
+    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/quarkus-backend/template.yaml
   tags:
-  - quarkus
-  - java
-  - maven
+    - quarkus
+    - java
+    - maven
 spec:
-    owner: janus-authors
-    system: janus-idp
-    type: service
+  owner: janus-authors
+  system: janus-idp
+  type: service
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: register-component
-  title: Register existing component to Software Catalog
   description: "Registers existing component (GitHub repository) to Software Catalog"
+  links:
+    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/register-component/template.yaml
   tags:
-  - import
-  - catalog
-  - register
+    - import
+    - catalog
+    - register
 spec:
-    owner: janus-authors
-    system: janus-idp
-    type: service
+  owner: janus-authors
+  system: janus-idp
+  type: service
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: sdlc-app-template
-  title: Application Template
   description: "An application is a set of components that will run together in the same SDLC environments"
+  links:
+    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/sdlc-app/template.yaml
   tags:
-  - application
+    - application
 spec:
-    owner: service@example.com
-    system: unknown
-    type: system
+  owner: service@example.com
+  system: unknown
+  type: system
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: spring-boot-backend-template
-  title: Create a Spring Boot Backend application with a CI pipeline
   description: "Create a starter Spring Boot backend application with a CI pipeline"
+  links:
+    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/spring-boot-backend/template.yaml
   tags:
-  - recommended
-  - spring-boot
-  - java
-  - maven
+    - recommended
+    - spring-boot
+    - java
+    - maven
 spec:
-    owner: janus-authors
-    system: janus-idp
-    type: service
+  owner: janus-authors
+  system: janus-idp
+  type: service
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: techdocs-template
-  title: Create a techdocs sample
   description: "Create a techdocs sample"
+  links:
+    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/techdocs/template.yaml
   tags:
-  - documentation
-  - techdocs
+    - documentation
+    - techdocs
 spec:
-    owner: janus-authors
-    system: janus-idp
-    type: service
+  owner: janus-authors
+  system: janus-idp
+  type: service
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: tekton-template
-  title: Create a tekton CI Pipeline
   description: "Create a tekton CI Pipeline"
+  links:
+    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/tekton/template.yaml
   tags:
-  - ci
-  - tekton
+    - ci
+    - tekton
 spec:
-    owner: janus-authors
-    system: janus-idp
-    type: service
+  owner: janus-authors
+  system: janus-idp
+  type: service
 ---
-
