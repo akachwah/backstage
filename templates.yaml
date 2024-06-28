@@ -6,7 +6,7 @@ metadata:
   name: argocd-template
   description: "Add ArgoCD to an existing project"
   links:
-    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/argocd/template.yaml
+    - url: https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/github/argocd/template.yaml
   tags:
     - recommended
     - argocd
@@ -14,6 +14,7 @@ spec:
   owner: janus-authors
   system: janus-idp
   type: service
+  lifecycle: production
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -21,7 +22,7 @@ metadata:
   name: backstage-system-template
   description: "Create a Backstage System entity"
   links:
-    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/backstage-system/template.yaml
+    - url: https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/github/backstage-system/template.yaml
   tags:
     - backstage
     - system
@@ -29,6 +30,7 @@ spec:
   owner: janus-authors
   system: janus-idp
   type: service
+  lifecycle: production
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -36,7 +38,7 @@ metadata:
   name: define-ansible-job-template
   description: "Define an Ansible Job Template within Ansible Automation Platform"
   links:
-    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/define-ansible-job/template.yaml
+    - url: https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/github/define-ansible-job/template.yaml
   tags:
     - recommended
     - aap
@@ -44,6 +46,7 @@ spec:
   owner: janus-authors
   system: janus-idp
   type: service
+  lifecycle: production
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -51,7 +54,7 @@ metadata:
   name: go-backend-template
   description: "Create a starter Go backend application with a CI pipeline"
   links:
-    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/go-backend/template.yaml
+    - url: https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/github/go-backend/template.yaml
   tags:
     - recommended
     - go
@@ -59,6 +62,7 @@ spec:
   owner: janus-authors
   system: janus-idp
   type: service
+  lifecycle: production
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -66,7 +70,7 @@ metadata:
   name: launch-ansible-job-template
   description: "Launch an Ansible Job within Ansible Automation Platform"
   links:
-    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/launch-ansible-job/template.yaml
+    - url: https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/github/launch-ansible-job/template.yaml
   tags:
     - recommended
     - aap
@@ -74,6 +78,7 @@ spec:
   owner: janus-authors
   system: janus-idp
   type: service
+  lifecycle: production
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -81,7 +86,7 @@ metadata:
   name: nodejs-backend-template
   description: "Create a starter Node.js backend application with a CI pipeline"
   links:
-    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/nodejs-backend/template.yaml
+    - url: https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/github/nodejs-backend/template.yaml
   tags:
     - recommended
     - nodejs
@@ -92,6 +97,7 @@ spec:
   owner: janus-authors
   system: janus-idp
   type: service
+  lifecycle: production
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -99,13 +105,14 @@ metadata:
   name: obc-template
   description: "Add OBC to an existing project"
   links:
-    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/obc/template.yaml
+    - url: https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/github/obc/template.yaml
   tags:
     - obc
 spec:
   owner: janus-authors
   system: janus-idp
   type: service
+  lifecycle: production
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -113,7 +120,7 @@ metadata:
   name: quarkus-backend-template
   description: "Create a starter Quarkus Backend application with a CI pipeline"
   links:
-    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/quarkus-backend/template.yaml
+    - url: https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/github/quarkus-backend/template.yaml
   tags:
     - quarkus
     - java
@@ -122,6 +129,7 @@ spec:
   owner: janus-authors
   system: janus-idp
   type: service
+  lifecycle: production
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -129,7 +137,7 @@ metadata:
   name: register-component
   description: "Registers existing component (GitHub repository) to Software Catalog"
   links:
-    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/register-component/template.yaml
+    - url: https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/github/register-component/template.yaml
   tags:
     - import
     - catalog
@@ -138,6 +146,7 @@ spec:
   owner: janus-authors
   system: janus-idp
   type: service
+  lifecycle: production
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -145,13 +154,14 @@ metadata:
   name: sdlc-app-template
   description: "An application is a set of components that will run together in the same SDLC environments"
   links:
-    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/sdlc-app/template.yaml
+    - url: https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/github/sdlc-app/template.yaml
   tags:
     - application
 spec:
   owner: service@example.com
   system: unknown
   type: system
+  lifecycle: production
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -159,7 +169,7 @@ metadata:
   name: spring-boot-backend-template
   description: "Create a starter Spring Boot backend application with a CI pipeline"
   links:
-    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/spring-boot-backend/template.yaml
+    - url: https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/github/spring-boot-backend/template.yaml
   tags:
     - recommended
     - spring-boot
@@ -169,6 +179,7 @@ spec:
   owner: janus-authors
   system: janus-idp
   type: service
+  lifecycle: production
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -176,7 +187,7 @@ metadata:
   name: techdocs-template
   description: "Create a techdocs sample"
   links:
-    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/techdocs/template.yaml
+    - url: https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/github/techdocs/template.yaml
   tags:
     - documentation
     - techdocs
@@ -184,6 +195,7 @@ spec:
   owner: janus-authors
   system: janus-idp
   type: service
+  lifecycle: production
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -191,7 +203,7 @@ metadata:
   name: tekton-template
   description: "Create a tekton CI Pipeline"
   links:
-    - url: https://raw.githubusercontent.com/redhat-developer/red-hat-developer-hub-software-templates/main/templates/github/tekton/template.yaml
+    - url: https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/github/tekton/template.yaml
   tags:
     - ci
     - tekton
@@ -199,4 +211,5 @@ spec:
   owner: janus-authors
   system: janus-idp
   type: service
+  lifecycle: production
 ---
