@@ -4,6 +4,16 @@
 
 Welcome to the Red Hat Developer Hub Software Templates Repository. This repository contains a collection of software templates designed to illustrate best practices in software development and deployment. Our templates cover a wide range of technologies and frameworks, ensuring you have a suitable starting point for your project's needs.
 
+<iframe
+  width="640"
+  height="480"
+  src="https://www.youtube.com/watch?v=tvVOC0mFR_4"
+  frameborder="0"
+  allow="autoplay; encrypted-media"
+  allowfullscreen
+>
+</iframe>
+
 ## Overview
 
 ### Software / Golden Templates
@@ -83,7 +93,7 @@ In the event of a failed template execution, the "Start Over" option can be used
 
 ## Template List
 
-Below is a table of templates included in this repository, along with their use cases and links to their respective directories (accurate as of the time of writing):
+Below is a table of templates along with their related tags and links to their respective directories (accurate as of the time of writing). Users should exercise discretion when using these templates.
 <br> </br>
 
 | Name | Link | Tags 
