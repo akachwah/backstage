@@ -35,6 +35,14 @@ Each template in this repository is designed with adaptability in mind, allowing
 *    Adjust configurations to align with organizational standards.
 *    Adapt deployment procedures to fit their unique environments.
 
+### How To Customize your own Template
+If you have a template that you would like to use, please follow these steps to customize them:
+
+* Fork this repository
+* Create a new branch for your template.
+* Add your template to the appropriate directory and customize.
+* Submit a pull request for review.
+
 Please note that all templates are unsupported and unmaintained. Users should adapt them for their needs and use them at their own risk.
 
 ####### SEPARATE DOC HERE? ##########
@@ -90,7 +98,7 @@ This action will initiate a new execution of the selected template, pre-populate
 
 In the event of a failed template execution, the "Start Over" option can be used to re-execute the template. The parameters from the original run will be pre-filled, but they can be adjusted as needed before retrying the template.
 
-## Template List
+## Template Library
 
 Below is a table of templates along with their related tags and links to their respective directories (accurate as of the time of writing). Users should exercise discretion when using these templates.
 <br> </br>
@@ -176,12 +184,7 @@ Create Frontend Plugin Template|https://github.com/redhat-developer/red-hat-deve
 
 ## Contributing
 
-We welcome contributions to this repository. If you have a template that you would like to share, please follow these steps:
-Fork this repository.
-
-* Create a new branch for your template.
-* Add your template to the appropriate directory.
-* Submit a pull request for review.
+We welcome contributions to this repository.
 
 ## Contact
 If you have any questions or need further assistance, please reach out to the Red Hat Developer Hub team by creating a Jira Ticket at  : link?
