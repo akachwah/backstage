@@ -2,16 +2,16 @@
 
 ## Welcome to Templates
 
-Welcome to the Red Hat Developer Hub Software Templates Repository. This repository contains a collection of software templates designed to illustrate best practices in software development and deployment. Our templates cover a wide range of technologies and frameworks, ensuring you have a suitable starting point for your project's needs.
+Welcome to the Red Hat Developer Hub Software Templates Repository. This repository contains a collection of software templates designed to illustrate best practices in software development and deployment. Our templates cover a wide range of technologies and frameworks, and can often provide a starting point for further customization based on your unique requirements.
 
 ## Overview
 
 ### Software / Golden Templates
 
-Software / Golden Templates are pre-configured, best practice templates that are considered the standard for certain types of applications or environments. They are maintained with the latest recommendations and practices. Using Software Templates can help ensure that your projects adhere to industry standards and organizational policies.
+Software / Golden Templates are pre-configured, best practice templates that provide a starting point commonly used technologies, applications, or environments. When you create templates you can maintain them besed on your preferred best practices. Using Software Templates can help reduce toil, automate common workflows, and help you encourage developers to follow your internal development standards, practices, and policies.
 
 
-Our software templates are crafted to provide you with a solid foundation for your projects. Each template is a blueprint that includes predefined configurations, dependencies, and deployment procedures. These templates are intended to help you quickly set up and deploy applications with industry best practices.
+These software templates are crafted to provide you with examples that you can take and customize for your needs. Each template is a blueprint that includes predefined configurations, dependencies, and deployment procedures. These templates are intended to help developers quickly set up and deploy applications and can be customised with your best practices in mind.
 
 
 ### To help you get started, please watch our introductory video:
@@ -37,11 +37,13 @@ Each template in this repository is designed with adaptability in mind, allowing
 
 Please note that all templates are unsupported and unmaintained. Users should adapt them for their needs and use them at their own risk.
 
+####### SEPARATE DOC HERE? ##########
+
 ## Getting Started
 
-Be sure to have covered [Getting Started with Developer Hub](https://developers.redhat.com/rhdh/getting-started) before proceeding. The Software Templates are available under /create. 
+Be sure to have covered [Getting Started with Developer Hub](https://developers.redhat.com/rhdh/getting-started) before proceeding. In Red Hat Developer Hub, once imported, Software Templates can be found in the left hand navigation, under the "Create" button. To import templates, go to "Create" and choose the "Redgister Entity" button (if your permissions allow). Add the URL for this repo and choose "Import". 
 
-Once there, you should see something that looks similar to this:
+Once imported, under "Create" you should see something that looks similar to this:
 
 ![Create](./Create.png)
 <br> </br>
