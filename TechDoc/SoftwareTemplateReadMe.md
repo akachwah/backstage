@@ -10,17 +10,13 @@ Welcome to the Red Hat Developer Hub Software Templates Repository. This reposit
 
 Software / Golden Templates are pre-configured, best practice templates that are considered the standard for certain types of applications or environments. They are maintained with the latest recommendations and practices. Using Software Templates can help ensure that your projects adhere to industry standards and organizational policies.
 
-
 Our software templates are crafted to provide you with a solid foundation for your projects. Each template is a blueprint that includes predefined configurations, dependencies, and deployment procedures. These templates are intended to help you quickly set up and deploy applications with industry best practices.
-
 
 ## Disclaimer
 
 The software templates provided in this repository are examples meant to serve as a starting point. Users are strongly encouraged to customize and modify these templates to fit their specific project requirements and organizational standards. 
 
 By using these templates, you agree to do so at your own risk and discretion. Red Hat shall not be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of these templates, even if advised of the possibility of such damage.
-
-<br> </br>
 
 ## How to Use Software Templates
 
@@ -111,18 +107,6 @@ Below is a table of templates along with their related tags and links to their r
 [Add ArgoCD to an existing project](https://github.com/redhat-developer/red-hat-developer-hub-software-templates/blob/main/templates/github/argocd/template.yaml) | ArgoCD
 [Template for creating a backend plugin skeleton](https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/create-backend-plugin) | Janus Idp, Frontend, Backend
 [Create Frontend Plugin Template](https://github.com/redhat-developer/red-hat-developer-hub-software-templates/blob/main/templates/create-frontend-plugin/template.yaml) | Janus Idp, Frontend, Backend
-
-
-<br></br>
-
-## Contributing
-
-We welcome contributions to this repository. If you have a template that you would like to share, please follow these steps:
-
-* Fork this repository.
-* Create a new branch for your template.
-* Add your template to the appropriate directory.
-* Submit a pull request for review.
 
 ## Support
 If you are a Developer Hub customer and find a bug, please open up an issue.
