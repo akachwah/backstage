@@ -25,7 +25,7 @@ To get started with any template, follow these steps:
 - Browse the template list below and select a template that suits your needs.
 - Fork this repository and create your own branch.
 - Customize the template to fit your specific requirements.
-- Import the template in Developer Hub and start using it. For detailed instructions on how to import templates in Developer Hub, refer to the [Importing Templates in Developer Hub](https://github.com/akachwah/backstage/blob/main/TechDoc/GettingStarted.md).
+- Import the template in Developer Hub and start using it. For detailed instructions on how to import templates in Developer Hub, refer to the [Getting Started with Developer Hub](https://github.com/akachwah/backstage/blob/main/TechDoc/GettingStarted.md).
 
 ## Template List
 
