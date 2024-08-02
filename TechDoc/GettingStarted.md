@@ -2,20 +2,6 @@
 
 ## Getting Started
 
-<iframe
-  width="640"
-  height="480"
-  src="https://www.youtube.com/watch?v=tvVOC0mFR_4"
-  frameborder="0"
-  allow="autoplay; encrypted-media"
-  allowfullscreen
->
-</iframe>
-
-Be sure to have covered [Getting Started with Developer Hub](https://developers.redhat.com/rhdh/getting-started) before proceeding. The Software Templates are available under /create. 
-
-Once there, you should see something that looks similar to this:
-
 ![Create](./assets/Create.png)
 <br> </br>
 ## Choose a template
