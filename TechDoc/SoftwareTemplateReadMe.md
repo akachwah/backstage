@@ -23,7 +23,7 @@ By using these templates, you agree to do so at your own risk and discretion. Re
 To get started with any template, follow these steps:
 
 - Browse the template list below and select a template that suits your needs.
-- Fork this repository and create your own branch.
+- Fork that template and create your own branch.
 - Customize the template to fit your specific requirements.
 - Import the template in Developer Hub and start using it. For detailed instructions on how to import templates in Developer Hub, refer to the [Getting Started with Developer Hub](https://github.com/akachwah/backstage/blob/main/TechDoc/GettingStarted.md).
 
@@ -108,5 +108,5 @@ Below is a table of templates along with their related tags and links to their r
 [Template for creating a backend plugin skeleton](https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/create-backend-plugin) | Janus Idp, Frontend, Backend
 [Create Frontend Plugin Template](https://github.com/redhat-developer/red-hat-developer-hub-software-templates/blob/main/templates/create-frontend-plugin/template.yaml) | Janus Idp, Frontend, Backend
 
-## Support
-If you are a Developer Hub customer and find a bug, please open up an issue.
+## How to Contribute
+You can contribute to the template library by creating a pull request for enhancements/bug-fix. If you have suggestions for additional template or improvements, open up an issue
