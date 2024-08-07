@@ -107,6 +107,13 @@ Below is a table of templates along with their related tags and links to their r
 [Add ArgoCD to an existing project](https://github.com/redhat-developer/red-hat-developer-hub-software-templates/blob/main/templates/github/argocd/template.yaml) | ArgoCD
 [Template for creating a backend plugin skeleton](https://github.com/redhat-developer/red-hat-developer-hub-software-templates/tree/main/templates/create-backend-plugin) | Janus Idp, Frontend, Backend
 [Create Frontend Plugin Template](https://github.com/redhat-developer/red-hat-developer-hub-software-templates/blob/main/templates/create-frontend-plugin/template.yaml) | Janus Idp, Frontend, Backend
+[Create Ansible Collection Project](https://github.com/ansible/ansible-rhdh-templates/blob/main/templates/collections.yaml) | Ansible, GitHub
+[Create Ansible Playbook Project](https://github.com/ansible/ansible-rhdh-templates/blob/main/templates/playbooks.yaml) | Ansible, Playbook
+[App-onboard](https://github.com/idp-team/software-templates/tree/master/defaults/parameters) | Docker, SCM
+[Quarkus Application Patch Template](https://github.com/developer-hub-books/rhdh-book1-templates/tree/main/custom-component-patch) | Quarkus, Patch, Book
+[Staged Deployment Patch Template](https://github.com/developer-hub-books/rhdh-book1-templates/tree/main/custom-deployment-patch) | Quarkus, Patch, Book, Deployment 
+[Create a NestJS Service with backing PostgreSQL Database](https://github.com/developer-hub-books/rhdh-book1-templates/tree/main/nestjs-with-postgres) | NodeJs, NestJS, Postgresql, Book, Database
+[Create Quarkus Service with hosted Angular Frontend](https://github.com/developer-hub-books/rhdh-book1-templates/tree/main/quarkus-with-angular) |	Java, Quarkus, Quinoa, Angular, Book
 
 ## How to Contribute
 You can contribute to the template library by creating a pull request for enhancements/bug-fix. If you have suggestions for additional template or improvements, open up an issue
